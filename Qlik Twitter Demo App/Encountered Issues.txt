@@ -1,0 +1,11 @@
+Some of the issues I faced while working with Qlik Sense 3.1.1 and the connector
+
+* There is a Bug in the Twitter REST connector UI, can demonstrate that during the interview.
+* Issue in the JS API, you can't get a variable value but rather the string representation of the var!
+* Named tables maybe loaded without a name at times! Probably due to upgrading from 3.0.2 to 3.1.1.
+* Not possible to pass selected values to a master item of variable type.
+* You can export to csv but when imported it is messy!
+* You can export to a qdv but you can't load the same qvd!
+* You can't undo deleting a master item var.
+* None used vars can't be cleaned out.
+* Selecting a field for the purpose of inserting it into a GUI object dimension at times didn't work.

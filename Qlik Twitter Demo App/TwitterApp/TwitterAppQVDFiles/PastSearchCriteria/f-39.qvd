@@ -1,0 +1,3129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <QvdTableHeader>
+   <QvBuildNo>50501</QvBuildNo>
+   <CreatorDoc>C:\Users\YHA\Documents\Qlik\Sense\Apps\TwitterDemoApp.qvf</CreatorDoc>
+   <CreateUtcTime>2016-10-30 15:41:06</CreateUtcTime>
+   <SourceCreateUtcTime></SourceCreateUtcTime>
+   <SourceFileUtcTime></SourceFileUtcTime>
+   <SourceFileSize>-1</SourceFileSize>
+   <StaleUtcTime></StaleUtcTime>
+   <TableName>TwitterSearchResult</TableName>
+   <Fields>
+     <QvdFieldHeader>
+       <FieldName>id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>95</NoOfSymbols>
+       <Offset>0</Offset>
+       <Length>1900</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>created_at</FieldName>
+       <BitOffset>25</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>95</NoOfSymbols>
+       <Offset>1900</Offset>
+       <Length>855</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>text</FieldName>
+       <BitOffset>32</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>94</NoOfSymbols>
+       <Offset>2755</Offset>
+       <Length>11119</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>text_urlEncoded</FieldName>
+       <BitOffset>50</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>94</NoOfSymbols>
+       <Offset>13874</Offset>
+       <Length>20215</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>lang</FieldName>
+       <BitOffset>135</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>34089</Offset>
+       <Length>45</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>source</FieldName>
+       <BitOffset>39</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>34134</Offset>
+       <Length>2282</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>truncated</FieldName>
+       <BitOffset>328</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>36416</Offset>
+       <Length>13</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>in_reply_to_screen_name</FieldName>
+       <BitOffset>139</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>36429</Offset>
+       <Length>120</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>in_reply_to_status_id</FieldName>
+       <BitOffset>71</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>23</NoOfSymbols>
+       <Offset>36549</Offset>
+       <Length>442</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>in_reply_to_user_id</FieldName>
+       <BitOffset>176</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>12</NoOfSymbols>
+       <Offset>36991</Offset>
+       <Length>210</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweet_count</FieldName>
+       <BitOffset>180</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>37201</Offset>
+       <Length>76</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>favorite_count</FieldName>
+       <BitOffset>167</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>37277</Offset>
+       <Length>38</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>37315</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>favorited</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>37322</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>possibly_sensitive</FieldName>
+       <BitOffset>358</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>37329</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>hashtag_count</FieldName>
+       <BitOffset>292</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>37338</Offset>
+       <Length>29</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>hash_tags</FieldName>
+       <BitOffset>103</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>37367</Offset>
+       <Length>428</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>first_hash_tag</FieldName>
+       <BitOffset>108</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>19</NoOfSymbols>
+       <Offset>37795</Offset>
+       <Length>210</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>url_count</FieldName>
+       <BitOffset>294</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>38005</Offset>
+       <Length>21</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>expanded_urls</FieldName>
+       <BitOffset>113</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>38026</Offset>
+       <Length>1199</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>first_expanded_url</FieldName>
+       <BitOffset>118</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>30</NoOfSymbols>
+       <Offset>39225</Offset>
+       <Length>1104</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_mentions_count</FieldName>
+       <BitOffset>170</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>40329</Offset>
+       <Length>42</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_mentions</FieldName>
+       <BitOffset>123</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>27</NoOfSymbols>
+       <Offset>40371</Offset>
+       <Length>505</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>first_user_mention</FieldName>
+       <BitOffset>143</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>24</NoOfSymbols>
+       <Offset>40876</Offset>
+       <Length>281</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>media_count</FieldName>
+       <BitOffset>359</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>41157</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>media_expanded_urls</FieldName>
+       <BitOffset>296</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>41171</Offset>
+       <Length>202</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>first_media_expanded_url</FieldName>
+       <BitOffset>329</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>41373</Offset>
+       <Length>202</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>symbols_count</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>41575</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>symbols</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>41582</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>first_symbol</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>41584</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>media_photo_count</FieldName>
+       <BitOffset>360</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>41586</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>media_photo_urls</FieldName>
+       <BitOffset>331</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>41600</Offset>
+       <Length>189</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>first_media_photo_url</FieldName>
+       <BitOffset>333</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>41789</Offset>
+       <Length>189</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>metadata_result_type</FieldName>
+       <BitOffset>361</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>41978</Offset>
+       <Length>17</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>metadata_iso_language_code</FieldName>
+       <BitOffset>184</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>41995</Offset>
+       <Length>45</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_id</FieldName>
+       <BitOffset>57</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>72</NoOfSymbols>
+       <Offset>42040</Offset>
+       <Length>1228</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_name</FieldName>
+       <BitOffset>64</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>71</NoOfSymbols>
+       <Offset>43268</Offset>
+       <Length>1285</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_screen_name</FieldName>
+       <BitOffset>82</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>72</NoOfSymbols>
+       <Offset>44553</Offset>
+       <Length>932</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_location</FieldName>
+       <BitOffset>7</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>49</NoOfSymbols>
+       <Offset>45485</Offset>
+       <Length>1021</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_profile_image_url</FieldName>
+       <BitOffset>89</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>72</NoOfSymbols>
+       <Offset>46506</Offset>
+       <Length>5671</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_description</FieldName>
+       <BitOffset>96</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>67</NoOfSymbols>
+       <Offset>52177</Offset>
+       <Length>8256</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_url</FieldName>
+       <BitOffset>13</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>35</NoOfSymbols>
+       <Offset>60433</Offset>
+       <Length>831</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_geo_enabled</FieldName>
+       <BitOffset>362</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>61264</Offset>
+       <Length>13</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_protected</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>61277</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_followers_count</FieldName>
+       <BitOffset>128</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>68</NoOfSymbols>
+       <Offset>61284</Offset>
+       <Length>605</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_friends_count</FieldName>
+       <BitOffset>19</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>57</NoOfSymbols>
+       <Offset>61889</Offset>
+       <Length>494</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_listed_count</FieldName>
+       <BitOffset>44</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>35</NoOfSymbols>
+       <Offset>62383</Offset>
+       <Length>278</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_favourites_count</FieldName>
+       <BitOffset>76</BitOffset>
+       <BitWidth>6</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>42</NoOfSymbols>
+       <Offset>62661</Offset>
+       <Length>399</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_statuses_count</FieldName>
+       <BitOffset>153</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>72</NoOfSymbols>
+       <Offset>63060</Offset>
+       <Length>770</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_created_at</FieldName>
+       <BitOffset>160</BitOffset>
+       <BitWidth>7</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>72</NoOfSymbols>
+       <Offset>63830</Offset>
+       <Length>648</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_utc_offset</FieldName>
+       <BitOffset>188</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>13</NoOfSymbols>
+       <Offset>64478</Offset>
+       <Length>134</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_time_zone</FieldName>
+       <BitOffset>148</BitOffset>
+       <BitWidth>5</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>20</NoOfSymbols>
+       <Offset>64612</Offset>
+       <Length>239</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_verified</FieldName>
+       <BitOffset>363</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>64851</Offset>
+       <Length>13</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_lang</FieldName>
+       <BitOffset>173</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>64864</Offset>
+       <Length>32</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_follow_request_sent</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>64896</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_is_translator</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>64903</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_following</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>64910</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>user_notifications</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>64917</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_id</FieldName>
+       <BitOffset>260</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>64924</Offset>
+       <Length>110</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_url</FieldName>
+       <BitOffset>263</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65034</Offset>
+       <Length>350</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_place_type</FieldName>
+       <BitOffset>336</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>65384</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_name</FieldName>
+       <BitOffset>266</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65399</Offset>
+       <Length>83</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_full_name</FieldName>
+       <BitOffset>269</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65482</Offset>
+       <Length>108</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_country_code</FieldName>
+       <BitOffset>364</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>65590</Offset>
+       <Length>6</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_country</FieldName>
+       <BitOffset>365</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>65596</Offset>
+       <Length>17</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_bounding_box_type</FieldName>
+       <BitOffset>366</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>65613</Offset>
+       <Length>11</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>place_attributes</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>65624</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>geo_type</FieldName>
+       <BitOffset>367</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>65626</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>geo_latitude</FieldName>
+       <BitOffset>272</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65635</Offset>
+       <Length>104</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>geo_longitude</FieldName>
+       <BitOffset>275</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65739</Offset>
+       <Length>98</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>coordinates_type</FieldName>
+       <BitOffset>368</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>65837</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>coordinates_latitude</FieldName>
+       <BitOffset>278</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65846</Offset>
+       <Length>98</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>coordinates_longitude</FieldName>
+       <BitOffset>281</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>65944</Offset>
+       <Length>104</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_id</FieldName>
+       <BitOffset>192</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>66048</Offset>
+       <Length>202</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_created_at</FieldName>
+       <BitOffset>196</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>66250</Offset>
+       <Length>90</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_text</FieldName>
+       <BitOffset>200</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>66340</Offset>
+       <Length>1583</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_text_urlEncoded</FieldName>
+       <BitOffset>204</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>67923</Offset>
+       <Length>2763</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_lang</FieldName>
+       <BitOffset>298</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>70686</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_source</FieldName>
+       <BitOffset>301</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>7</NoOfSymbols>
+       <Offset>70704</Offset>
+       <Length>454</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_truncated</FieldName>
+       <BitOffset>338</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>71158</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_in_reply_to_screen_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>71173</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_in_reply_to_status_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>71175</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_in_reply_to_user_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>71177</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_retweet_count</FieldName>
+       <BitOffset>208</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>71179</Offset>
+       <Length>71</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_favorite_count</FieldName>
+       <BitOffset>212</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>71250</Offset>
+       <Length>72</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_retweeted</FieldName>
+       <BitOffset>369</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71322</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_favorited</FieldName>
+       <BitOffset>370</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71331</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_possibly_sensitive</FieldName>
+       <BitOffset>371</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71340</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_hashtag_count</FieldName>
+       <BitOffset>340</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>71349</Offset>
+       <Length>21</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_hash_tags</FieldName>
+       <BitOffset>342</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>71370</Offset>
+       <Length>27</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_first_hash_tag</FieldName>
+       <BitOffset>344</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>4</NoOfSymbols>
+       <Offset>71397</Offset>
+       <Length>23</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_url_count</FieldName>
+       <BitOffset>372</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71420</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_expanded_urls</FieldName>
+       <BitOffset>304</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>71434</Offset>
+       <Length>212</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_first_expanded_url</FieldName>
+       <BitOffset>307</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>71646</Offset>
+       <Length>212</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_mentions_count</FieldName>
+       <BitOffset>373</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71858</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_mentions</FieldName>
+       <BitOffset>374</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71872</Offset>
+       <Length>83</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_first_user_mention</FieldName>
+       <BitOffset>375</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71955</Offset>
+       <Length>16</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_media_count</FieldName>
+       <BitOffset>376</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>71971</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_media_expanded_urls</FieldName>
+       <BitOffset>346</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>71985</Offset>
+       <Length>137</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_first_media_expanded_url</FieldName>
+       <BitOffset>348</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>72122</Offset>
+       <Length>137</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_symbols_count</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>72259</Offset>
+       <Length>7</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_symbols</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>72266</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_first_symbol</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>72268</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_media_photo_count</FieldName>
+       <BitOffset>377</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>72270</Offset>
+       <Length>14</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_media_photo_urls</FieldName>
+       <BitOffset>350</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>72284</Offset>
+       <Length>140</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_first_media_photo_url</FieldName>
+       <BitOffset>352</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>72424</Offset>
+       <Length>140</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_metadata_result_type</FieldName>
+       <BitOffset>378</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>72564</Offset>
+       <Length>10</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_metadata_iso_language_code</FieldName>
+       <BitOffset>310</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>5</NoOfSymbols>
+       <Offset>72574</Offset>
+       <Length>18</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_id</FieldName>
+       <BitOffset>216</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>72592</Offset>
+       <Length>168</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_name</FieldName>
+       <BitOffset>220</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>72760</Offset>
+       <Length>193</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_screen_name</FieldName>
+       <BitOffset>224</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>72953</Offset>
+       <Length>136</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_location</FieldName>
+       <BitOffset>313</BitOffset>
+       <BitWidth>3</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>8</NoOfSymbols>
+       <Offset>73089</Offset>
+       <Length>123</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_profile_image_url</FieldName>
+       <BitOffset>228</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>73212</Offset>
+       <Length>773</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_description</FieldName>
+       <BitOffset>232</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>73985</Offset>
+       <Length>1507</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_url</FieldName>
+       <BitOffset>236</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>9</NoOfSymbols>
+       <Offset>75492</Offset>
+       <Length>198</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_geo_enabled</FieldName>
+       <BitOffset>354</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>75690</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_protected</FieldName>
+       <BitOffset>379</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>75705</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_followers_count</FieldName>
+       <BitOffset>240</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>75714</Offset>
+       <Length>107</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_friends_count</FieldName>
+       <BitOffset>244</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>75821</Offset>
+       <Length>93</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_listed_count</FieldName>
+       <BitOffset>248</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>75914</Offset>
+       <Length>88</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_favourites_count</FieldName>
+       <BitOffset>252</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>76002</Offset>
+       <Length>86</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_statuses_count</FieldName>
+       <BitOffset>256</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>11</NoOfSymbols>
+       <Offset>76088</Offset>
+       <Length>106</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_created_at</FieldName>
+       <BitOffset>284</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>-2</Bias>
+       <NumberFormat>
+         <Type>TIMESTAMP</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>76194</Offset>
+       <Length>90</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_utc_offset</FieldName>
+       <BitOffset>288</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>76284</Offset>
+       <Length>100</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_time_zone</FieldName>
+       <BitOffset>316</BitOffset>
+       <BitWidth>4</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>10</NoOfSymbols>
+       <Offset>76384</Offset>
+       <Length>159</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_verified</FieldName>
+       <BitOffset>356</BitOffset>
+       <BitWidth>2</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>3</NoOfSymbols>
+       <Offset>76543</Offset>
+       <Length>15</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_lang</FieldName>
+       <BitOffset>320</BitOffset>
+       <BitWidth>8</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>6</NoOfSymbols>
+       <Offset>76558</Offset>
+       <Length>22</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_follow_request_sent</FieldName>
+       <BitOffset>380</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>76580</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_is_translator</FieldName>
+       <BitOffset>381</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>76589</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_following</FieldName>
+       <BitOffset>382</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>76598</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_user_notifications</FieldName>
+       <BitOffset>383</BitOffset>
+       <BitWidth>1</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>2</NoOfSymbols>
+       <Offset>76607</Offset>
+       <Length>9</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_id</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76616</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_url</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76618</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_place_type</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76620</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76622</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_full_name</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76624</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_country_code</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76626</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_country</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76628</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_bounding_box_type</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76630</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_place_attributes</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76632</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_geo_type</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76634</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_geo_latitude</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76636</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_geo_longitude</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76638</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_coordinates_type</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76640</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_coordinates_latitude</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76642</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+     <QvdFieldHeader>
+       <FieldName>retweeted_status_coordinates_longitude</FieldName>
+       <BitOffset>0</BitOffset>
+       <BitWidth>0</BitWidth>
+       <Bias>0</Bias>
+       <NumberFormat>
+         <Type>UNKNOWN</Type>
+         <nDec>0</nDec>
+         <UseThou>0</UseThou>
+         <Fmt></Fmt>
+         <Dec></Dec>
+         <Thou></Thou>
+       </NumberFormat>
+       <NoOfSymbols>1</NoOfSymbols>
+       <Offset>76644</Offset>
+       <Length>2</Length>
+       <Comment></Comment>
+       <Tags></Tags>
+     </QvdFieldHeader>
+   </Fields>
+   <Compression></Compression>
+   <RecordByteSize>48</RecordByteSize>
+   <NoOfRecords>95</NoOfRecords>
+   <Offset>76646</Offset>
+   <Length>4560</Length>
+   <Lineage></Lineage>
+   <Comment></Comment>
+ </QvdTableHeader>
+ 789918985383010304 792752813478596609 792752715780661248 792752267979952128 792750955947237380 792750763084615681 792750460062969856 792750427133534211 792750425816444928 792750410155094016 792748563931406337 792747394752315392 792746702117625856 792746677140533248 792745755039653889 792745653411549184 792745458577780736 792744788709695489 792744347284434944 792743207389962240 792743021968134146 792742982734770176 792742947141869568 792742860747603969 792742107677020160 792741992883101696 792741977582280705 792741602594816000 792741599633612800 792741186104459264 792741080538177536 792740344295153664 792739463340228608 792739374165204992 792738814557028352 792738374532603904 792737909837271044 792737805336137728 792736188972929024 792736176050319360 792736078813732864 792736058014179330 792736002309709825 792735661409181696 792735504990998528 792735315148492800 792735166414229505 792735096507817985 792735016673349633 792734960729808896 792734719171452928 792734604360814593 792734382389723136 792734323401117696 792734035483033600 792733880688087040 792733543403171840 792732509096153088 792732131495546880 792731901979078657 792731401195917312 792731307029569536 792730099204239361 792729607984275456 792729326672150529 792729036204101632 792729009167532032 792728854137667585 792728387320180736 792728353186861056 792728261432270848 792728105299292160 792727877578022914 792727865171202048 792727845177098241 792727404481351681 792727236675641344 792727163438899200 792726674433384448 792726326625046528 792726084919914496 792724759993724928 792723203235782656 792721514168590336 792721017760260096 792720555975675904 792720413436604416 792720169567133696 792720049794535425 792718113175433216 792716511781675008 792716274270740480 792714215760891905 792714158651351040 792714094159732737 ‚8™¤:Õä@ƒ"á4Öä@´—ĞŞ4Öä@Ùl«Ô4Öä@U`·4Öä@HÖ¹²4Öä@ğÍ«4Öä@–$«4Öä@ÍÁ«4Öä@sğÂª4Öä@Ö¹ò€4Öä@øñ–f4Öä@ß±ÙV4Öä@ôT`V4Öä@Š\„A4Öä@ò‹%?4Öä@åÉ:4Öä@d+4Öä@7Å¨!4Öä@ Ş4Öä@¡²4Öä@ƒ-Ø4Öä@u¹ı4Öä@ÉE 4Öä@¸4ï3Öä@Øwì3Öä@lÁì3Öä@¬~¦ã3Öä@ä8ã3Öä@M<+Ú3Öä@¶kÌ×3Öä@·4Ç3Öä@üxK³3Öä@¾y5±3Öä@‚8™¤3Öä@9™¤š3Öä@;W3Öä@£†¿3Öä@é“>i3Öä@Âõh3Öä@‰}Çf3Öä@ Nf3Öä@¥Oúd3Öä@*;L]3Öä@+%ÊY3Öä@çà…U3Öä@°R3Öä@]nP3Öä@y@²N3Öä@IµvM3Öä@+H3Öä@¬‰gE3Öä@#a@3Öä@*F?3Öä@ß¼š83Öä@à¦53Öä@e’j-3Öä@šƒ3Öä@û3Öä@÷üW3Öä@ìF÷ü2Öä@®Gáú2Öä@ùÅ’ß2Öä@HázÔ2Öä@Æ Î2Öä@²Î•Ç2Öä@6æëÆ2Öä@7ĞiÃ2Öä@9ã¸2Öä@ô_!¸2Öä@¶`¶2Öä@·J‰²2Öä@œLR­2Öä@B{	­2Öä@ d¨¬2Öä@ÖÄ³¢2Öä@}İè2Öä@aõ32Öä@°’2Öä@l¶UŠ2Öä@øæÕ„2Öä@RÃßf2Öä@¡²C2Öä@»Æ|2Öä@AœL2Öä@ Ş2Öä@g[¥2Öä@ò‹%ÿ1Öä@8¤eü1Öä@&´—Ğ1Öä@Øw¬1Öä@ãN§1Öä@w‚x1Öä@¦.w1Öä@\Âu1Öä@Toddlers have shot 51 people in the US so far this year. 39 shot themselves. 16 fatally. 
+
+F.
+F.
+S.
+
+https://t.co/wvEohrzTzn #ColvilleWX Current Conditions : 45.7F, Overcast - 8:39 AM PDT Oct. 30: Temperature: 45.7Â°F | Humidity: 93% |â€¦ https://t.co/ZB8KYeeSCC #WA @yun89_39 ã‚ã‹ã£ã¦ã‚‹ã‘ã©ã€ã‚‚ãªã„ã®ã«ã¨ã‚Šã‚ãˆãšå£ç­”ãˆã™ã‚‹ã®ã¯ã‚„ã‚ã¦ã„ãŸã ããŸã„ RT @CinemaInFrames: STRAIGHT OUTTA COMPTON (2015)
+Cinematographer: Matthew Libatique
+Aspect Ratio: 2.39:1
+Director: F. Gary Gray https://t.â€¦ Moodys analytics sas Emploi Moody s Analytics (Grenoble) Ingenieur Developpement H F Big Data I... https://t.co/Sb9xUjkFvm bank job 39 11:30am 10/30/2016 Temp/Dwpt: 40Â°F/39Â°F (H 46/L 39)  Hum: 95% Wind:Calm Baro: 29.90in Rain: 0.00in Wind 1 mph S. Barometer 29.893 in, Rising. Temperature 73.7 Â°F. Rain today 0.00in. Humidity 39% Wind 1.4 mph W. Barometer 30.280 in, Rising slowly. Temperature 39.2 Â°F. Rain today 0.01 in. Humidity 78% NWS fcst: TodayMostly Cloudy: , Hi 47Â°F; TonightMostly Cloudy: , Lo 39Â°F; MondayPartly Sunny: , Hi 50Â°F;  #LakeHuronWX 08:30 AM: 39.7Â°F, Humidity: 100 percent, Barometer: 29.781 in., Low: 38.6Â°F at 6:30 AM, High: 43.8Â°F at 12:17 AM, Rain today: 0.01 in. at 10:22am:
+clear sky -&gt; few clouds
+temperature up 34Â°F -&gt; 39Â°F
+humidity up 94% -&gt; 100% æ›¸è©• å¹³äº•å’Œå­è‘—ã€æ—¥æœ¬å é ˜ã¨ã‚¸ã‚§ãƒ³ãƒ€ãƒ¼ : ç±³è»ãƒ»å£²è²·æ˜¥ã¨æ—¥æœ¬å¥³æ€§ãŸã¡ã€ / å¶½æœ¬ æ–°å¥ˆ: (209):2016.9, P.39-44 https://t.co/yt4Epdrfve at 10:12am:
+temperature up 33Â°F -&gt; 39Â°F
+humidity up 91% -&gt; 100%
+wind 3mph -&gt; 5mph ì‹  ë‹˜ì˜ ìƒ‰ìƒì½”ë“œëŠ” ì´ê²ë‹ˆë‹¤!
+
+DE9F39
+
+ìƒ‰ìƒ í™•ì¸ : https://t.co/LSi7gKMAMq
+#ë‹¹ì‹ ì˜ìƒ‰ìƒì½”ë“œ
+https://t.co/VTKPvZTFwI @f_kawasaki_mn 10-30ã®ãƒã‚¹ãƒˆæ•°ï¼š39 ï¼ˆã†ã¡RTï¼š4) Weather now: clear sky, 39Â°F, 5 mph north-northwest wind. https://t.co/Pxmfx0AT88 (Met) WSPD: 21 kn / GST: 25 kn / WVHT: 12.1 ft / DPD: 8.0 s / WDIR: 290Â° / ATMP: 39Â° F / WTMP: 44Â° F / DEW: 32Â° F /  6:50a AKDT F-01Fã®ãƒãƒƒãƒ†ãƒªãƒ¼æ®‹é‡ï¼š80% å……é›»çŠ¶æ…‹ï¼šç”Ÿç”£ä¸­ at 00:07:39 #SiouxFalls #SouthDakota Oct 30 09:56 Temperature 39Â°F overcast Wind SE 9 km/h  Humidity 95% .. https://t.co/9Tg0kj0GIK 11:00am 10/30/2016 Temp/Dwpt: 40Â°F/38Â°F (H 46/L 39)  Hum: 95% Wind:Calm Baro: 29.90in Rain: 0.00in This man changed his name to iPhone 7 so he could get a free iPhone 7 https://t.co/QLWUYx59Dw 39 NWS fcst: TodayChance Rain: , Hi 68Â°F; TonightRain thenMostly Cloudy: , Lo 39Â°F; MondaySunny: , Hi 51Â°F;  #weather 07:56 Temp. 39.6Â°F, Hum. 91%, Dewp. 36.3Â°F, Bar. 29.61 inHg, Rain Today 0.0040 inch, Wind 54Â° 2.0 km/h Forney-Temp: 85.6Â°F. Feels Like: 90.1Â°F. Dew Pt: 63.1Â°F. Wind: NNE 0.0mph Gust: 0.0mph. Baro: 29.39" &amp; Rising. Rain: 0.00" #alwx ë¼ì§•ì–´ë‹˜ì˜ ìƒ‰ìƒì½”ë“œëŠ” ì´ê²ë‹ˆë‹¤!
+
+2F3B39
+
+ìƒ‰ìƒ í™•ì¸ : https://t.co/qgpKaP1GkG
+#ë‹¹ì‹ ì˜ìƒ‰ìƒì½”ë“œ
+https://t.co/PMHVVoN6kP
+
+ã…‡á†ã…‡?? @pop_f_0625 
+ã‚‚ã£ã¨ã‚“ã‹ã„wwwwwwä½¿ã£ã¦ã‚‹ã®ï¼Ÿï¼Ÿï¼Ÿï¼Ÿã€ï¼Ÿ temperature up 33Â°F -&gt; 39Â°F
+humidity up 91% -&gt; 100%
+wind 3mph -&gt; 5mph #SanDiego #California Oct 30 07:39 Temperature 64Â°F clouds Humidity 95% .. https://t.co/1aBYut7nS7 #NewOrleans #Louisiana Oct 30 09:39 Temperature 73Â°F few clouds Wind NE 17 km/h  Humidity 85% .. https://t.co/mZu1RqkCsi @39_mi7 
+ãã®ã‚·ãƒ§ãƒ¼ãƒ³ã‚‚ã£ã¦ã‚‹â”(Â´ï½`;)â”Œ RT @bengoldacre: Toddlers have shot 51 people in the US so far this year. 39 shot themselves. 16 fatally. 
+
+F.
+F.
+S.
+
+https://t.co/wvEohrzTâ€¦ 2016å¹´10æœˆ30æ—¥
+gacha_fã•ã‚“ãŒå…¥çœ ã—ã¾ã—ãŸã€‚
+æ™‚åˆ» 23:39 å…¥çœ æ½œæ™‚ 52åˆ†49ç§’
+#SleepMeister https://t.co/zK5VsPSvLo @yun89_39 @puu009 åƒ•ã‹ã‚‰ã‚‚å…ˆè¼©ã«ãŠé¡˜ã„ã—ãŸã„ã§ã™ã€‚
+å¥³æ€§ã®æŒ‡å°ã¯ã—ãŸã„ã®ã§ã™ãŒã€åƒ•ã«ã¯ã§ãã¾ã›ã‚“â€¦â€¦ ã€ï¼¦æ±äº¬ã€‘ï¼‘ï¼–æ­³å¹³å·ã€ï¼ªï¼“æœ€å¹´å°‘å‡ºå ´è¨˜éŒ²ã€Œç›®æ¨™ã ã£ãŸã®ã§ã†ã‚Œã—ã‹ã£ãŸã€ ï¼ˆ10æœˆ30æ—¥ 17:39ï¼‰(ã‚¹ãƒãƒ¼ãƒ„å ±çŸ¥) https://t.co/55EYYuYprz RT @eendrachtaalst: SK Halle - Eendracht Aalst 1-1 (39' F. Geenens) #halaal
+https://t.co/EYR0soBn36 BroomGulf â€¢ DataBase FUMETTI (Comics &amp; Manga)... E SIAMO A 1.176 ALBI!  https://t.co/nvMc4SG9G6 via @Bron_ElGram SK Halle - Eendracht Aalst 1-1 (39' F. Geenens) #halaal
+https://t.co/EYR0soBn36 few clouds -&gt; scattered clouds
+temperature down 39Â°F -&gt; 35Â°F
+humidity down 98% -&gt; 91% RT @card_spiral: ã€éŠæˆ¯ç‹ã€€è²·å–â‘£ã€‘
+ãƒ¬ãƒƒãƒ‰ãƒ‡ãƒ¼ãƒ¢ãƒ³ã‚ºãƒ»ãƒ‰ãƒ©ã‚´ãƒ³ãƒ»ã‚¹ã‚«ãƒ¼ãƒ©ã‚¤ãƒˆ700
+SNo.0ãƒ›ãƒ¼ãƒ—ãƒ»ã‚¼ã‚¢ãƒ«100
+No.39å¸Œæœ›çš‡ãƒ›ãƒ¼ãƒ—ã‚¦ãƒ«50
+CNo.39å¸Œæœ›çš‡ãƒ›ãƒ¼ãƒ—ãƒ¬ã‚¤ã‚¹ãƒ¼100ã‚¦ãƒ«200
+ã‚»ãƒ–ãƒ³ãƒ»ã‚·ãƒ³ã‚ºã‚·ã‚¯200
+ãƒˆãƒ¼ãƒ†ãƒ ãƒãƒ¼ãƒ‰1100ã‚·ã‚¯1300â€¦ ç›¸å¤‰ã‚ã‚‰ãšãƒ—ãƒ¬ãƒƒã‚·ãƒ£ãƒ¼ã«å¼±ãã¦å¾ŒåŠFãŒå¢—ãˆã‚‹â€¦â€¦0(:3ã€€)ã€œ ('ï½¤3_ãƒ½)_ https://t.co/u4Drongch2 A.Q.ã€SHãƒŸã‚¯ã€‘ ãŒ ï¼³/ï¼®ä¼šæ´¥ã‚¤ãƒ³ã‚¿ãƒ¼ ã§ åƒæœ¬æ¡œ -F edition-ï¼ˆEXTREMEï¼‰ã‚’ é”æˆç‡102.43% ã§ã‚¯ãƒªã‚¢ï¼ #DIVANET ã‚¢ã‚¤ã‚³ãƒ³ã‚’[å¹´ä¸­æ¾æ¨ã—]ã§ãƒ‡ã‚³ã‚Šã¾ã—ãŸã€‚ #iconDecotter https://t.co/ur6hxRfYXZ @f_kooo 
+ãƒã‚±ã‚­ãƒ£ãƒ³è¦‹ã™ãã¦é€šä¿¡åˆ¶é™ãªã‚Šã‹ã‘ã‚‹ã‚„ã¤ï¼ˆç¬‘ï¼‰ 10:30am 10/30/2016 Temp/Dwpt: 40Â°F/39Â°F (H 46/L 39)  Hum: 96% Wind:Calm Baro: 29.91in Rain: 0.00in @f_kooo 
+çµå±€ä¸Šæ‰‹é€šè·¯ã°ã£ã‹ã‚„ã—ã€åˆ¥ã€…ã«ã‚‚å…¥ã£ã¦ãªã„ã—ï¼ˆç¬‘ï¼‰ NWS fcst: TodayPartly Sunny: , Hi 46Â°F; TonightMostly Cloudy: , Lo 39Â°F; MondayPartly Sunny: , Hi 50Â°F;  #LakeHuronWX @f_kooo 
+çµå±€åŒã˜ã‚ˆã†ãªå¸­è²·ã†ã£ã¦ã„ã†ãªï¼ˆç¬‘ï¼‰ @_Feb_F @Arirang_726 ì¡ë§ ê°ìŸˆí•´ìš” ^ã…^ @_Feb_F @HONTANG__39 ì´ê²Œë‹¤ ë°•ê·œë°ˆ ë•Œë¬¸ì´ì•¼ ì—‰ì—‰ @_Feb_F ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ ì§‡ã„´ì§œ ë°ˆ ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ @Arirang_726 @HONTANG__39 ë‘ë¶„ ë‹¤ ì œ ì‘í’ˆì´ë‚´ìš” ã…ã……ã…  (ë§Œì¡±*1828) BroomGulf â€¢ DataBase LIBRI... e SIAMO A 1.263 VOLUMI!  https://t.co/VBo6FvmMF2 via @Bron_ElGram @HONTANG__39 ì•„ íë­‡í•˜ë‚´ìš”. 07:26 AM  Temp. 39Â°F, High 42Â°F, Low 37Â°F, Hum 98%, Wind S 0 mph , Gust   W 8 mph, Barometer Steady. https://t.co/xJwwPDZXmg Hyperdimension Neptunia U Action Unleashed PSVITA Ã  39,90â‚¬ sur La Fnac: Avec cette vente flash la F... https://t.co/xv0KhPTkf9
+ #BonsPlan @f_kooo 
+ã§ã‚‚ã‚ã®7ä¸‡ã§ã‚‚ã£ã¨ä¸Šæ‰‹é€šè·¯ã„ããŸã‹ã£ãŸ
+ã‚ãƒ¼å¾Œæ‚”ã®å¤ Real Madrid C. F. y Gareth Bale han acordado la ampliaciÃ³n del contrato del jugador, que queda vinculado al club... https://t.co/kjKz6Xq5ab @f_kooo 
+ã‚ãƒ¼
+äº¬éƒ½ã®ã‚¢ãƒ›ã‚‚ãª @f_kooo 
+ã‚ã‚Œã¯ã‚ã‚„ãŒæ‚ªã„ clear sky -&gt; few clouds
+temperature up 34Â°F -&gt; 39Â°F
+humidity up 94% -&gt; 100% RT @CyborgN8VMari: â€œOne woman was arrested without any cause given, stripped naked, and left naked in a jail cell overnight.â€ https://t.co/â€¦ #MANCHESTER CITY - NORWICH CITY V MANCHESTER CITY 1938/39 f.a.cup 3rd round:  Â£144.99End Date:... https://t.co/yzxSKTiHQ4 #DEALS EBAY UK ã©ã†ã„ã†ã“ã¨ãªã®ï¼ï¼Ÿ(ãã¡ã°ã—P)
+BPM:175ã€E3/N4/H6.5/EX8ã€‘
+ï½†ã‹ã‚‰ã®ç§»æ¤ã ã­â™ª ã‚‚ã®ã™ã”ãç†ç³»ãªæ„Ÿã˜ã®PVã ã­â€¦â™ªã€€
+ã©ã†ã„ã†ã“ã¨ãªã®ã€€ã©ã†ã„ã†ã“ã¨ãªã® å›ã¯ä½•ãŒå¥½ãï¼Ÿã€€ã€€https://t.co/Bfc4bPmKq7 RT @GaloNews_: O GOOOOOOOOOOOOOOOOL DO PRATTO NO MINEIRÃƒO 
+
+39' 2ÂºT - Lucas Pratto âš½ï¸
+
+AtlÃ©tico 2 x 1 Flamengo https://t.co/vU4zhrrdoN 39. Magi 124: L'attivazione di Zagan https://t.co/nAu5XrquTP ãƒã‚¤ã‚ªã®ã‚¸ãƒ«ã‹ã‚ã„ã„ @HONTANG__39 ë…¸ë°œ 16câ€†m @_Feb_F ë¯¸ì•„ë„¤ìš”,,, ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ã…‹ RT @Sugee111: ï¼²ï¼¥ï¼´ï¼·ï¼¥ï¼¥ï¼´ï¼¤N
+ï¼©ï¼¦
+
+ï¼¹ï¼¯ï¼µ
+
+ï¼¦ï¼¯ï¼¬ï¼¬ï¼¯ï¼·ï¼¢ï¼¡ï¼£ï¼«
+ğŸŒŸ#TM1DN ğŸŒŸ
+
+ğŸŒŸ@Arab_Arabism 
+ğŸŒŸ@betto_elcapi26 
+ğŸŒŸ@2020sahara 
+ğŸŒŸ@VIP_Follow888 
+ğŸŒŸ@sweetsexy_39 
+ğŸŒŸ@Yâ€¦ @HONTANG__39 ????!!?!?????????????!!?!!???!?? @_Feb_F ì•— ì„¹ìŠ¤ì™•ë°ˆ ì•ˆë…•í•˜ì„¸ìš” ì ¸ë‘ í•˜ì‹¤ë˜ìš”Â¿ (ëŒ€ì•„ë¬´ë§ 10:00am 10/30/2016 Temp/Dwpt: 40Â°F/39Â°F (H 46/L 39)  Hum: 96% Wind:Calm Baro: 29.90in Rain: 0.00in NWS fcst: TodayPartly Sunnythen RainLikely: , Hi 68Â°F; TonightRain thenMostly Cloudy: , Lo 39Â°F; MondaySunny: , Hi 51Â°F;  #weather @HONTANG__39 ë€¨ë€¨! 06:46 Temp. 39Â°F, Hum. 90%, Dewp. 35.4Â°F, Bar. 29.63 inHg, Rain Today 0.0040 inch, Wind 45Â° 1.0 km/h Weather on Oct-30-2016 09:45: Temp:41.6Â°F/Min:39.3Â°F/Max:46.4Â°F/Baro:30.057 inHg/Wind:1 mph/Rain:0.00 in/hr;/...  https://t.co/3cenbK777i RT @fl_mobile: ã€é †ä½è¡¨ã€‘ç¬¬16ç¯€
+1.åå¤å±‹ 39
+2.å¤§é˜ª 37
+3.ã™ã¿ã  35
+4.ç”ºç”° 28
+5.å¤§åˆ† 26
+6.åºœä¸­ 23
+7.æµ¦å®‰ 21
+8.ç¥æˆ¸ 20
+9.åŒ—æµ·é“ 17
+10.æ¹˜å— 11
+11.ä»™å° 8
+12.æµœæ¾ 8
+
+https://t.co/â€¦ @maruuu_39 normalã®ï¼®ãª(çŸ¥ã‚‰ã‚“ã‘ã©ã‚„ãª)ã€‚ã†ã¡ã‚‰ã¯ãŸã¶ã‚“ãƒ•ãƒ„ã‚¦ï¼¦ã‚„ã¨ãŠã‚‚ã†(ã“ã‚Œã“ãæœ¬å½“ã‹ã‚ã‹ã‚‰ã‚“)
+ã¾ã£ã¦ã€ã‚ã‚‰ã£ãŸç¬‘ã€å…¨ç„¶ã¯ãªã—å™›ã¿åˆã£ã¦ãªã„ã¹çˆ†ç¬‘ã€ãã‚“ã«å¿…æ­»ã«ãªã‚‰ã‚“ã§ã‚‚ã€œã‚¢ãƒ›ã£ã¦è¨€è‘‰ã¯ã‚ã‚Œã«ã¨ã£ã¦è¤’ã‚è¨€è‘‰ã ã‚ˆâ¤(ãªã«ã„ã£ã¦ã‚“ã )ã‚³ãƒ”ãƒšã¨ã‚†ã†æ‰‹ãŒã‚ã£ãŸã€‚ 10/29~10/39 - é–¢æ±å›½éš›æ–‡åŒ–ç¥­âœ¨
+
+ã‚ã£ã¡ã‚ƒæ¥½ã—ã‹ã£ãŸï¼
+
+1æ—¥ç›®ã®1å¹´ã®èˆå°ç™ºè¡¨ã™ã”ã‹ã£ãŸï¼
+
+ãƒ€ãƒ³ã‚¹éƒ¨ã€ãƒãƒˆãƒ³éƒ¨ã€Féƒ¨å…¨éƒ¨ç´ æ•µã§ã—ãŸğŸ‘ğŸ»
+
+ãã—ã¦WSSã®æ´»å‹•ã¯æ€ã£ã¦ãŸã‚ˆã‚Šå¿™ã—ã‹ã£ãŸã‘ã©ã„ã„çµŒé¨“ã«ãªã£ãŸ
+
+å†™çœŸæ’®ã£â€¦ https://t.co/4Jz3H1fGad RT @thierryneuville: After SS20 #WRGB 
+1.Ogier
+2.Tanak +23.0
+3.Neuville +1:39.7
+4.Paddon +1:53.1
+5.Meeke +2:36.5
+6.Sordo +3:54.0
+7.Latvalaâ€¦ @8_f_Dolphin 26:39ã§ç§ãŒãŠã‹ã‚“ã‹ã‚‰é›»è©±ãŒã‹ã‹ã£ã¦ãã¦çµ‚äº†ã—ãŸâ€¦â€¦(ã—ã‹ã—ã‹ã‘ç›´ã—ãŸ) ê°•ë‚¨ì•¼êµ¬ì¥ â™¥ë§¤ì§ë¯¸ëŸ¬ ì´ˆì´ìŠ¤â™¥
+â˜OIO.2I56.9I39â–¶íƒœí¬ë§Œ ì°¾ì•„ì£¼ì„¸ìš”â™¥
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ê°•ë‚¨í’€ì‹¸ë¡±
+#ì—­ì‚¼ì•¼êµ¬ì¥
+f4521 @ww2db @Son_of_Sandor @AMMWWII 30 Oct 39: FLINTâ€™S ROUTE HELD A MILITARY SECRET BY NAZI OFFICIALS https://t.co/S06na9rvzJ ï¼²ï¼¥ï¼´ï¼·ï¼¥ï¼¥ï¼´ï¼¤N
+ï¼©ï¼¦
+
+ï¼¹ï¼¯ï¼µ
+
+ï¼¦ï¼¯ï¼¬ï¼¬ï¼¯ï¼·ï¼¢ï¼¡ï¼£ï¼«
+ğŸŒŸ#TM1DN ğŸŒŸ
+
+ğŸŒŸ@Arab_Arabism 
+ğŸŒŸ@betto_elcapi26 
+ğŸŒŸ@2020sahara 
+ğŸŒŸ@VIP_Follow888 
+ğŸŒŸ@sweetsexy_39 
+ğŸŒŸ@Yaky549 
+ğŸŒŸ@oda_f 9:30am 10/30/2016 Temp/Dwpt: 39Â°F/38Â°F (H 46/L 39)  Hum: 96% Wind:N 0G7mph Baro: 29.91in Rain: 0.00in PNY Turbo 256GB USB 3.0 Flash Drive $39.94 @ Amazon - Thumb Score: +1 https://t.co/fbjyR9hlWw PNY Turbo 256 GB ... https://t.co/vaxxSrfVER PNY Turbo 256GB USB 3.0 Flash Drive $39.94 @ Amazon https://t.co/zr9Rs8Jdi1 ãƒ©ãƒ—ãƒ³ãƒ„ã‚§ãƒ«ã¿ãŸã„ï¼ /  ãƒãƒ¼ãƒ¬ã‚¯ã‚¤ãƒ³è¦‹ç´ã‚ https://t.co/zLEJhTTXLv | 52:39çµŒé No.20ã€€A.F.ã€€ãƒ•ã‚§ã‚¢ãƒªãƒ¼
+94,39,94,62,155,52
+ãƒ•ãƒ©ãƒ¯ãƒ¼ãƒ™ãƒ¼ãƒ« (Met) WSPD: 27 kn / GST: 39 kn / WVHT: 11.2 ft / DPD: 15.0 s / WDIR: 160Â° / ATMP: 58Â° F / DEW: 58Â° F /  5:50a PDT RT @PittWxSTEM: Football Weather History 10-30-1954 in Morgantown, WV, Pittsburgh (PA) 13, West Virginia 10, high was 39 F, low was 34 F. PNY Turbo 256GB USB 3.0 Flash Drive $39.94 @ Amazon https://t.co/b7CUHlabDe #SiouxFalls #SouthDakota Oct 30 07:56 Temperature 39Â°F overcast Wind NE 7 km/h  Humidity 95% .. https://t.co/9Tg0kj0GIK 9h Pocono Township, PA: Temp. 63.1 Â°F, Hum. 39 %, Bar. 1013.8 hPa, Rain 0 in, Wind - Calm #Weathercloud Toddlers+have+shot+51+people+in+the+US+so+far+this+year.+39+shot+themselves.+16+fatally.+%0a%0aF.%0aF.%0aS.%0a%0ahttps%3a%2f%2ft.co%2fwvEohrzTzn %23ColvilleWX+Current+Conditions+%3a+45.7F%2c+Overcast+-+8%3a39+AM+PDT+Oct.+30%3a+Temperature%3a+45.7%c2%b0F+%7c+Humidity%3a+93%25+%7c%e2%80%a6+https%3a%2f%2ft.co%2fZB8KYeeSCC+%23WA %40yun89_39+%e3%82%8f%e3%81%8b%e3%81%a3%e3%81%a6%e3%82%8b%e3%81%91%e3%81%a9%e3%80%81%e3%82%82%e3%81%aa%e3%81%84%e3%81%ae%e3%81%ab%e3%81%a8%e3%82%8a%e3%81%82%e3%81%88%e3%81%9a%e5%8f%a3%e7%ad%94%e3%81%88%e3%81%99%e3%82%8b%e3%81%ae%e3%81%af%e3%82%84%e3%82%81%e3%81%a6%e3%81%84%e3%81%9f%e3%81%a0%e3%81%8d%e3%81%9f%e3%81%84 RT+%40CinemaInFrames%3a+STRAIGHT+OUTTA+COMPTON+(2015)%0aCinematographer%3a+Matthew+Libatique%0aAspect+Ratio%3a+2.39%3a1%0aDirector%3a+F.+Gary+Gray+https%3a%2f%2ft.%e2%80%a6 Moodys+analytics+sas+Emploi+Moody+s+Analytics+(Grenoble)+Ingenieur+Developpement+H+F+Big+Data+I...+https%3a%2f%2ft.co%2fSb9xUjkFvm+bank+job+39 11%3a30am+10%2f30%2f2016+Temp%2fDwpt%3a+40%c2%b0F%2f39%c2%b0F+(H+46%2fL+39)++Hum%3a+95%25+Wind%3aCalm+Baro%3a+29.90in+Rain%3a+0.00in Wind+1+mph+S.+Barometer+29.893+in%2c+Rising.+Temperature+73.7+%c2%b0F.+Rain+today+0.00in.+Humidity+39%25 Wind+1.4+mph+W.+Barometer+30.280+in%2c+Rising+slowly.+Temperature+39.2+%c2%b0F.+Rain+today+0.01+in.+Humidity+78%25 NWS+fcst%3a+TodayMostly+Cloudy%3a+%2c+Hi+47%c2%b0F%3b+TonightMostly+Cloudy%3a+%2c+Lo+39%c2%b0F%3b+MondayPartly+Sunny%3a+%2c+Hi+50%c2%b0F%3b++%23LakeHuronWX 08%3a30+AM%3a+39.7%c2%b0F%2c+Humidity%3a+100+percent%2c+Barometer%3a+29.781+in.%2c+Low%3a+38.6%c2%b0F+at+6%3a30+AM%2c+High%3a+43.8%c2%b0F+at+12%3a17+AM%2c+Rain+today%3a+0.01+in. at+10%3a22am%3a%0aclear+sky+-%26gt%3b+few+clouds%0atemperature+up+34%c2%b0F+-%26gt%3b+39%c2%b0F%0ahumidity+up+94%25+-%26gt%3b+100%25 %e6%9b%b8%e8%a9%95+%e5%b9%b3%e4%ba%95%e5%92%8c%e5%ad%90%e8%91%97%e3%80%8e%e6%97%a5%e6%9c%ac%e5%8d%a0%e9%a0%98%e3%81%a8%e3%82%b8%e3%82%a7%e3%83%b3%e3%83%80%e3%83%bc+%3a+%e7%b1%b3%e8%bb%8d%e3%83%bb%e5%a3%b2%e8%b2%b7%e6%98%a5%e3%81%a8%e6%97%a5%e6%9c%ac%e5%a5%b3%e6%80%a7%e3%81%9f%e3%81%a1%e3%80%8f+%2f+%e5%b6%bd%e6%9c%ac+%e6%96%b0%e5%a5%88%3a+(209)%3a2016.9%2c+P.39-44+https%3a%2f%2ft.co%2fyt4Epdrfve at+10%3a12am%3a%0atemperature+up+33%c2%b0F+-%26gt%3b+39%c2%b0F%0ahumidity+up+91%25+-%26gt%3b+100%25%0awind+3mph+-%26gt%3b+5mph %ec%8b%a0+%eb%8b%98%ec%9d%98+%ec%83%89%ec%83%81%ec%bd%94%eb%93%9c%eb%8a%94+%ec%9d%b4%ea%b2%81%eb%8b%88%eb%8b%a4!%0a%0aDE9F39%0a%0a%ec%83%89%ec%83%81+%ed%99%95%ec%9d%b8+%3a+https%3a%2f%2ft.co%2fLSi7gKMAMq%0a%23%eb%8b%b9%ec%8b%a0%ec%9d%98%ec%83%89%ec%83%81%ec%bd%94%eb%93%9c%0ahttps%3a%2f%2ft.co%2fVTKPvZTFwI %40f_kawasaki_mn+10-30%e3%81%ae%e3%83%9d%e3%82%b9%e3%83%88%e6%95%b0%ef%bc%9a39+%ef%bc%88%e3%81%86%e3%81%a1RT%ef%bc%9a4) Weather+now%3a+clear+sky%2c+39%c2%b0F%2c+5+mph+north-northwest+wind.+https%3a%2f%2ft.co%2fPxmfx0AT88 (Met)+WSPD%3a+21+kn+%2f+GST%3a+25+kn+%2f+WVHT%3a+12.1+ft+%2f+DPD%3a+8.0+s+%2f+WDIR%3a+290%c2%b0+%2f+ATMP%3a+39%c2%b0+F+%2f+WTMP%3a+44%c2%b0+F+%2f+DEW%3a+32%c2%b0+F+%2f++6%3a50a+AKDT F-01F%e3%81%ae%e3%83%90%e3%83%83%e3%83%86%e3%83%aa%e3%83%bc%e6%ae%8b%e9%87%8f%ef%bc%9a80%25+%e5%85%85%e9%9b%bb%e7%8a%b6%e6%85%8b%ef%bc%9a%e7%94%9f%e7%94%a3%e4%b8%ad+at+00%3a07%3a39 %23SiouxFalls+%23SouthDakota+Oct+30+09%3a56+Temperature+39%c2%b0F+overcast+Wind+SE+9+km%2fh++Humidity+95%25+..+https%3a%2f%2ft.co%2f9Tg0kj0GIK 11%3a00am+10%2f30%2f2016+Temp%2fDwpt%3a+40%c2%b0F%2f38%c2%b0F+(H+46%2fL+39)++Hum%3a+95%25+Wind%3aCalm+Baro%3a+29.90in+Rain%3a+0.00in This+man+changed+his+name+to+iPhone+7+so+he+could+get+a+free+iPhone+7+https%3a%2f%2ft.co%2fQLWUYx59Dw+39 NWS+fcst%3a+TodayChance+Rain%3a+%2c+Hi+68%c2%b0F%3b+TonightRain+thenMostly+Cloudy%3a+%2c+Lo+39%c2%b0F%3b+MondaySunny%3a+%2c+Hi+51%c2%b0F%3b++%23weather 07%3a56+Temp.+39.6%c2%b0F%2c+Hum.+91%25%2c+Dewp.+36.3%c2%b0F%2c+Bar.+29.61+inHg%2c+Rain+Today+0.0040+inch%2c+Wind+54%c2%b0+2.0+km%2fh Forney-Temp%3a+85.6%c2%b0F.+Feels+Like%3a+90.1%c2%b0F.+Dew+Pt%3a+63.1%c2%b0F.+Wind%3a+NNE+0.0mph+Gust%3a+0.0mph.+Baro%3a+29.39%22+%26amp%3b+Rising.+Rain%3a+0.00%22+%23alwx %eb%8f%bc%ec%a7%95%ec%96%b4%eb%8b%98%ec%9d%98+%ec%83%89%ec%83%81%ec%bd%94%eb%93%9c%eb%8a%94+%ec%9d%b4%ea%b2%81%eb%8b%88%eb%8b%a4!%0a%0a2F3B39%0a%0a%ec%83%89%ec%83%81+%ed%99%95%ec%9d%b8+%3a+https%3a%2f%2ft.co%2fqgpKaP1GkG%0a%23%eb%8b%b9%ec%8b%a0%ec%9d%98%ec%83%89%ec%83%81%ec%bd%94%eb%93%9c%0ahttps%3a%2f%2ft.co%2fPMHVVoN6kP%0a%0a%e3%85%87%e1%86%9e%e3%85%87%3f%3f %40pop_f_0625+%0a%e3%82%82%e3%81%a3%e3%81%a8%e3%82%93%e3%81%8b%e3%81%84wwwwww%e4%bd%bf%e3%81%a3%e3%81%a6%e3%82%8b%e3%81%ae%ef%bc%9f%ef%bc%9f%ef%bc%9f%ef%bc%9f%e3%80%81%ef%bc%9f temperature+up+33%c2%b0F+-%26gt%3b+39%c2%b0F%0ahumidity+up+91%25+-%26gt%3b+100%25%0awind+3mph+-%26gt%3b+5mph %23SanDiego+%23California+Oct+30+07%3a39+Temperature+64%c2%b0F+clouds+Humidity+95%25+..+https%3a%2f%2ft.co%2f1aBYut7nS7 %23NewOrleans+%23Louisiana+Oct+30+09%3a39+Temperature+73%c2%b0F+few+clouds+Wind+NE+17+km%2fh++Humidity+85%25+..+https%3a%2f%2ft.co%2fmZu1RqkCsi %4039_mi7+%0a%e3%81%9d%e3%81%ae%e3%82%b7%e3%83%a7%e3%83%bc%e3%83%b3%e3%82%82%e3%81%a3%e3%81%a6%e3%82%8b%e2%94%90(%c2%b4%ef%bd%9e%60%3b)%e2%94%8c RT+%40bengoldacre%3a+Toddlers+have+shot+51+people+in+the+US+so+far+this+year.+39+shot+themselves.+16+fatally.+%0a%0aF.%0aF.%0aS.%0a%0ahttps%3a%2f%2ft.co%2fwvEohrzT%e2%80%a6 2016%e5%b9%b410%e6%9c%8830%e6%97%a5%0agacha_f%e3%81%95%e3%82%93%e3%81%8c%e5%85%a5%e7%9c%a0%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%e3%80%82%0a%e6%99%82%e5%88%bb+23%3a39+%e5%85%a5%e7%9c%a0%e6%bd%9c%e6%99%82+52%e5%88%8649%e7%a7%92%0a%23SleepMeister+https%3a%2f%2ft.co%2fzK5VsPSvLo %40yun89_39+%40puu009+%e5%83%95%e3%81%8b%e3%82%89%e3%82%82%e5%85%88%e8%bc%a9%e3%81%ab%e3%81%8a%e9%a1%98%e3%81%84%e3%81%97%e3%81%9f%e3%81%84%e3%81%a7%e3%81%99%e3%80%82%0a%e5%a5%b3%e6%80%a7%e3%81%ae%e6%8c%87%e5%b0%8e%e3%81%af%e3%81%97%e3%81%9f%e3%81%84%e3%81%ae%e3%81%a7%e3%81%99%e3%81%8c%e3%80%81%e5%83%95%e3%81%ab%e3%81%af%e3%81%a7%e3%81%8d%e3%81%be%e3%81%9b%e3%82%93%e2%80%a6%e2%80%a6 %e3%80%90%ef%bc%a6%e6%9d%b1%e4%ba%ac%e3%80%91%ef%bc%91%ef%bc%96%e6%ad%b3%e5%b9%b3%e5%b7%9d%e3%80%81%ef%bc%aa%ef%bc%93%e6%9c%80%e5%b9%b4%e5%b0%91%e5%87%ba%e5%a0%b4%e8%a8%98%e9%8c%b2%e3%80%8c%e7%9b%ae%e6%a8%99%e3%81%a0%e3%81%a3%e3%81%9f%e3%81%ae%e3%81%a7%e3%81%86%e3%82%8c%e3%81%97%e3%81%8b%e3%81%a3%e3%81%9f%e3%80%8d+%ef%bc%8810%e6%9c%8830%e6%97%a5+17%3a39%ef%bc%89(%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%84%e5%a0%b1%e7%9f%a5)+https%3a%2f%2ft.co%2f55EYYuYprz RT+%40eendrachtaalst%3a+SK+Halle+-+Eendracht+Aalst+1-1+(39%27+F.+Geenens)+%23halaal%0ahttps%3a%2f%2ft.co%2fEYR0soBn36 BroomGulf+%e2%80%a2+DataBase+FUMETTI+(Comics+%26amp%3b+Manga)...+E+SIAMO+A+1.176+ALBI!++https%3a%2f%2ft.co%2fnvMc4SG9G6+via+%40Bron_ElGram SK+Halle+-+Eendracht+Aalst+1-1+(39%27+F.+Geenens)+%23halaal%0ahttps%3a%2f%2ft.co%2fEYR0soBn36 few+clouds+-%26gt%3b+scattered+clouds%0atemperature+down+39%c2%b0F+-%26gt%3b+35%c2%b0F%0ahumidity+down+98%25+-%26gt%3b+91%25 RT+%40card_spiral%3a+%e3%80%90%e9%81%8a%e6%88%af%e7%8e%8b%e3%80%80%e8%b2%b7%e5%8f%96%e2%91%a3%e3%80%91%0a%e3%83%ac%e3%83%83%e3%83%89%e3%83%87%e3%83%bc%e3%83%a2%e3%83%b3%e3%82%ba%e3%83%bb%e3%83%89%e3%83%a9%e3%82%b4%e3%83%b3%e3%83%bb%e3%82%b9%e3%82%ab%e3%83%bc%e3%83%a9%e3%82%a4%e3%83%88700%0aSNo.0%e3%83%9b%e3%83%bc%e3%83%97%e3%83%bb%e3%82%bc%e3%82%a2%e3%83%ab100%0aNo.39%e5%b8%8c%e6%9c%9b%e7%9a%87%e3%83%9b%e3%83%bc%e3%83%97%e3%82%a6%e3%83%ab50%0aCNo.39%e5%b8%8c%e6%9c%9b%e7%9a%87%e3%83%9b%e3%83%bc%e3%83%97%e3%83%ac%e3%82%a4%e3%82%b9%e3%83%bc100%e3%82%a6%e3%83%ab200%0a%e3%82%bb%e3%83%96%e3%83%b3%e3%83%bb%e3%82%b7%e3%83%b3%e3%82%ba%e3%82%b7%e3%82%af200%0a%e3%83%88%e3%83%bc%e3%83%86%e3%83%a0%e3%83%90%e3%83%bc%e3%83%891100%e3%82%b7%e3%82%af1300%e2%80%a6 %e7%9b%b8%e5%a4%89%e3%82%8f%e3%82%89%e3%81%9a%e3%83%97%e3%83%ac%e3%83%83%e3%82%b7%e3%83%a3%e3%83%bc%e3%81%ab%e5%bc%b1%e3%81%8f%e3%81%a6%e5%be%8c%e5%8d%8aF%e3%81%8c%e5%a2%97%e3%81%88%e3%82%8b%e2%80%a6%e2%80%a60(%3a3%e3%80%80)%e3%80%9c+(%27%ef%bd%a43_%e3%83%bd)_+https%3a%2f%2ft.co%2fu4Drongch2 A.Q.%e3%80%90SH%e3%83%9f%e3%82%af%e3%80%91+%e3%81%8c+%ef%bc%b3%2f%ef%bc%ae%e4%bc%9a%e6%b4%a5%e3%82%a4%e3%83%b3%e3%82%bf%e3%83%bc+%e3%81%a7+%e5%8d%83%e6%9c%ac%e6%a1%9c+-F+edition-%ef%bc%88EXTREME%ef%bc%89%e3%82%92+%e9%81%94%e6%88%90%e7%8e%87102.43%25+%e3%81%a7%e3%82%af%e3%83%aa%e3%82%a2%ef%bc%81+%23DIVANET %e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e3%82%92%5b%e5%b9%b4%e4%b8%ad%e6%9d%be%e6%8e%a8%e3%81%97%5d%e3%81%a7%e3%83%87%e3%82%b3%e3%82%8a%e3%81%be%e3%81%97%e3%81%9f%e3%80%82+%23iconDecotter+https%3a%2f%2ft.co%2fur6hxRfYXZ %40f_kooo+%0a%e3%83%81%e3%82%b1%e3%82%ad%e3%83%a3%e3%83%b3%e8%a6%8b%e3%81%99%e3%81%8e%e3%81%a6%e9%80%9a%e4%bf%a1%e5%88%b6%e9%99%90%e3%81%aa%e3%82%8a%e3%81%8b%e3%81%91%e3%82%8b%e3%82%84%e3%81%a4%ef%bc%88%e7%ac%91%ef%bc%89 10%3a30am+10%2f30%2f2016+Temp%2fDwpt%3a+40%c2%b0F%2f39%c2%b0F+(H+46%2fL+39)++Hum%3a+96%25+Wind%3aCalm+Baro%3a+29.91in+Rain%3a+0.00in %40f_kooo+%0a%e7%b5%90%e5%b1%80%e4%b8%8a%e6%89%8b%e9%80%9a%e8%b7%af%e3%81%b0%e3%81%a3%e3%81%8b%e3%82%84%e3%81%97%e3%80%81%e5%88%a5%e3%80%85%e3%81%ab%e3%82%82%e5%85%a5%e3%81%a3%e3%81%a6%e3%81%aa%e3%81%84%e3%81%97%ef%bc%88%e7%ac%91%ef%bc%89 NWS+fcst%3a+TodayPartly+Sunny%3a+%2c+Hi+46%c2%b0F%3b+TonightMostly+Cloudy%3a+%2c+Lo+39%c2%b0F%3b+MondayPartly+Sunny%3a+%2c+Hi+50%c2%b0F%3b++%23LakeHuronWX %40f_kooo+%0a%e7%b5%90%e5%b1%80%e5%90%8c%e3%81%98%e3%82%88%e3%81%86%e3%81%aa%e5%b8%ad%e8%b2%b7%e3%81%86%e3%81%a3%e3%81%a6%e3%81%84%e3%81%86%e3%81%aa%ef%bc%88%e7%ac%91%ef%bc%89 %40_Feb_F+%40Arirang_726+%ec%a1%8d%eb%a7%90+%ea%b0%90%ec%9f%88%ed%95%b4%ec%9a%94+%5e%e3%85%81%5e %40_Feb_F+%40HONTANG__39+%ec%9d%b4%ea%b2%8c%eb%8b%a4+%eb%b0%95%ea%b7%9c%eb%b0%88+%eb%95%8c%eb%ac%b8%ec%9d%b4%ec%95%bc+%ec%97%89%ec%97%89 %40_Feb_F+%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b+%ec%a7%87%e3%84%b4%ec%a7%9c+%eb%b0%88+%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b %40Arirang_726+%40HONTANG__39+%eb%91%90%eb%b6%84+%eb%8b%a4+%ec%a0%9c+%ec%9e%91%ed%92%88%ec%9d%b4%eb%82%b4%ec%9a%94+%e3%85%8e%e3%85%85%e3%85%8e++(%eb%a7%8c%ec%a1%b1*1828) BroomGulf+%e2%80%a2+DataBase+LIBRI...+e+SIAMO+A+1.263+VOLUMI!++https%3a%2f%2ft.co%2fVBo6FvmMF2+via+%40Bron_ElGram %40HONTANG__39+%ec%95%84+%ed%9d%90%eb%ad%87%ed%95%98%eb%82%b4%ec%9a%94. 07%3a26+AM++Temp.+39%c2%b0F%2c+High+42%c2%b0F%2c+Low+37%c2%b0F%2c+Hum+98%25%2c+Wind+S+0+mph+%2c+Gust+++W+8+mph%2c+Barometer+Steady.+https%3a%2f%2ft.co%2fxJwwPDZXmg Hyperdimension+Neptunia+U+Action+Unleashed+PSVITA+%c3%a0+39%2c90%e2%82%ac+sur+La+Fnac%3a+Avec+cette+vente+flash+la+F...+https%3a%2f%2ft.co%2fxv0KhPTkf9%0a+%23BonsPlan %40f_kooo+%0a%e3%81%a7%e3%82%82%e3%81%82%e3%81%ae7%e4%b8%87%e3%81%a7%e3%82%82%e3%81%a3%e3%81%a8%e4%b8%8a%e6%89%8b%e9%80%9a%e8%b7%af%e3%81%84%e3%81%8d%e3%81%9f%e3%81%8b%e3%81%a3%e3%81%9f%0a%e3%81%82%e3%83%bc%e5%be%8c%e6%82%94%e3%81%ae%e5%a4%8f Real+Madrid+C.+F.+y+Gareth+Bale+han+acordado+la+ampliaci%c3%b3n+del+contrato+del+jugador%2c+que+queda+vinculado+al+club...+https%3a%2f%2ft.co%2fkjKz6Xq5ab %40f_kooo+%0a%e3%81%82%e3%83%bc%0a%e4%ba%ac%e9%83%bd%e3%81%ae%e3%82%a2%e3%83%9b%e3%82%82%e3%81%aa %40f_kooo+%0a%e3%81%82%e3%82%8c%e3%81%af%e3%81%82%e3%82%84%e3%81%8c%e6%82%aa%e3%81%84 clear+sky+-%26gt%3b+few+clouds%0atemperature+up+34%c2%b0F+-%26gt%3b+39%c2%b0F%0ahumidity+up+94%25+-%26gt%3b+100%25 RT+%40CyborgN8VMari%3a+%e2%80%9cOne+woman+was+arrested+without+any+cause+given%2c+stripped+naked%2c+and+left+naked+in+a+jail+cell+overnight.%e2%80%9d+https%3a%2f%2ft.co%2f%e2%80%a6 %23MANCHESTER+CITY+-+NORWICH+CITY+V+MANCHESTER+CITY+1938%2f39+f.a.cup+3rd+round%3a++%c2%a3144.99End+Date%3a...+https%3a%2f%2ft.co%2fyzxSKTiHQ4+%23DEALS+EBAY+UK %e3%81%a9%e3%81%86%e3%81%84%e3%81%86%e3%81%93%e3%81%a8%e3%81%aa%e3%81%ae%ef%bc%81%ef%bc%9f(%e3%81%8f%e3%81%a1%e3%81%b0%e3%81%97P)%0aBPM%3a175%e3%80%90E3%2fN4%2fH6.5%2fEX8%e3%80%91%0a%ef%bd%86%e3%81%8b%e3%82%89%e3%81%ae%e7%a7%bb%e6%a4%8d%e3%81%a0%e3%81%ad%e2%99%aa+%e3%82%82%e3%81%ae%e3%81%99%e3%81%94%e3%81%8f%e7%90%86%e7%b3%bb%e3%81%aa%e6%84%9f%e3%81%98%e3%81%aePV%e3%81%a0%e3%81%ad%e2%80%a6%e2%99%aa%e3%80%80%0a%e3%81%a9%e3%81%86%e3%81%84%e3%81%86%e3%81%93%e3%81%a8%e3%81%aa%e3%81%ae%e3%80%80%e3%81%a9%e3%81%86%e3%81%84%e3%81%86%e3%81%93%e3%81%a8%e3%81%aa%e3%81%ae+%e5%90%9b%e3%81%af%e4%bd%95%e3%81%8c%e5%a5%bd%e3%81%8d%ef%bc%9f%e3%80%80%e3%80%80https%3a%2f%2ft.co%2fBfc4bPmKq7 RT+%40GaloNews_%3a+O+GOOOOOOOOOOOOOOOOL+DO+PRATTO+NO+MINEIR%c3%83O+%0a%0a39%27+2%c2%baT+-+Lucas+Pratto+%e2%9a%bd%ef%b8%8f%0a%0aAtl%c3%a9tico+2+x+1+Flamengo+https%3a%2f%2ft.co%2fvU4zhrrdoN 39.+Magi+124%3a+L%27attivazione+di+Zagan+https%3a%2f%2ft.co%2fnAu5XrquTP %e3%83%90%e3%82%a4%e3%82%aa%e3%81%ae%e3%82%b8%e3%83%ab%e3%81%8b%e3%82%8f%e3%81%84%e3%81%84 %40HONTANG__39+%eb%85%b8%eb%b0%9c+16c%e2%80%86m %40_Feb_F+%eb%af%b8%ec%95%84%eb%84%a4%ec%9a%94%2c%2c%2c+%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b%e3%85%8b RT+%40Sugee111%3a+%ef%bc%b2%ef%bc%a5%ef%bc%b4%ef%bc%b7%ef%bc%a5%ef%bc%a5%ef%bc%b4%ef%bc%a4N%0a%ef%bc%a9%ef%bc%a6%0a%0a%ef%bc%b9%ef%bc%af%ef%bc%b5%0a%0a%ef%bc%a6%ef%bc%af%ef%bc%ac%ef%bc%ac%ef%bc%af%ef%bc%b7%ef%bc%a2%ef%bc%a1%ef%bc%a3%ef%bc%ab%0a%f0%9f%8c%9f%23TM1DN+%f0%9f%8c%9f%0a%0a%f0%9f%8c%9f%40Arab_Arabism+%0a%f0%9f%8c%9f%40betto_elcapi26+%0a%f0%9f%8c%9f%402020sahara+%0a%f0%9f%8c%9f%40VIP_Follow888+%0a%f0%9f%8c%9f%40sweetsexy_39+%0a%f0%9f%8c%9f%40Y%e2%80%a6 %40HONTANG__39+%3f%3f%3f%3f!!%3f!%3f%3f%3f%3f%3f%3f%3f%3f%3f%3f%3f%3f%3f!!%3f!!%3f%3f%3f!%3f%3f %40_Feb_F+%ec%95%97+%ec%84%b9%ec%8a%a4%ec%99%95%eb%b0%88+%ec%95%88%eb%85%95%ed%95%98%ec%84%b8%ec%9a%94+%ec%a0%b8%eb%9e%91+%ed%95%98%ec%8b%a4%eb%9e%98%ec%9a%94%c2%bf+(%eb%8c%80%ec%95%84%eb%ac%b4%eb%a7%90 10%3a00am+10%2f30%2f2016+Temp%2fDwpt%3a+40%c2%b0F%2f39%c2%b0F+(H+46%2fL+39)++Hum%3a+96%25+Wind%3aCalm+Baro%3a+29.90in+Rain%3a+0.00in NWS+fcst%3a+TodayPartly+Sunnythen+RainLikely%3a+%2c+Hi+68%c2%b0F%3b+TonightRain+thenMostly+Cloudy%3a+%2c+Lo+39%c2%b0F%3b+MondaySunny%3a+%2c+Hi+51%c2%b0F%3b++%23weather %40HONTANG__39+%eb%80%a8%eb%80%a8! 06%3a46+Temp.+39%c2%b0F%2c+Hum.+90%25%2c+Dewp.+35.4%c2%b0F%2c+Bar.+29.63+inHg%2c+Rain+Today+0.0040+inch%2c+Wind+45%c2%b0+1.0+km%2fh Weather+on+Oct-30-2016+09%3a45%3a+Temp%3a41.6%c2%b0F%2fMin%3a39.3%c2%b0F%2fMax%3a46.4%c2%b0F%2fBaro%3a30.057+inHg%2fWind%3a1+mph%2fRain%3a0.00+in%2fhr%3b%2f...++https%3a%2f%2ft.co%2f3cenbK777i RT+%40fl_mobile%3a+%e3%80%90%e9%a0%86%e4%bd%8d%e8%a1%a8%e3%80%91%e7%ac%ac16%e7%af%80%0a1.%e5%90%8d%e5%8f%a4%e5%b1%8b+39%0a2.%e5%a4%a7%e9%98%aa+37%0a3.%e3%81%99%e3%81%bf%e3%81%a0+35%0a4.%e7%94%ba%e7%94%b0+28%0a5.%e5%a4%a7%e5%88%86+26%0a6.%e5%ba%9c%e4%b8%ad+23%0a7.%e6%b5%a6%e5%ae%89+21%0a8.%e7%a5%9e%e6%88%b8+20%0a9.%e5%8c%97%e6%b5%b7%e9%81%93+17%0a10.%e6%b9%98%e5%8d%97+11%0a11.%e4%bb%99%e5%8f%b0+8%0a12.%e6%b5%9c%e6%9d%be+8%0a%0ahttps%3a%2f%2ft.co%2f%e2%80%a6 %40maruuu_39+normal%e3%81%ae%ef%bc%ae%e3%81%aa(%e7%9f%a5%e3%82%89%e3%82%93%e3%81%91%e3%81%a9%e3%82%84%e3%81%aa)%e3%80%82%e3%81%86%e3%81%a1%e3%82%89%e3%81%af%e3%81%9f%e3%81%b6%e3%82%93%e3%83%95%e3%83%84%e3%82%a6%ef%bc%a6%e3%82%84%e3%81%a8%e3%81%8a%e3%82%82%e3%81%86(%e3%81%93%e3%82%8c%e3%81%93%e3%81%9d%e6%9c%ac%e5%bd%93%e3%81%8b%e3%82%8f%e3%81%8b%e3%82%89%e3%82%93)%0a%e3%81%be%e3%81%a3%e3%81%a6%e3%80%81%e3%82%8f%e3%82%89%e3%81%a3%e3%81%9f%e7%ac%91%e3%80%81%e5%85%a8%e7%84%b6%e3%81%af%e3%81%aa%e3%81%97%e5%99%9b%e3%81%bf%e5%90%88%e3%81%a3%e3%81%a6%e3%81%aa%e3%81%84%e3%81%b9%e7%88%86%e7%ac%91%e3%80%81%e3%81%9d%e3%82%93%e3%81%ab%e5%bf%85%e6%ad%bb%e3%81%ab%e3%81%aa%e3%82%89%e3%82%93%e3%81%a7%e3%82%82%e3%80%9c%e3%82%a2%e3%83%9b%e3%81%a3%e3%81%a6%e8%a8%80%e8%91%89%e3%81%af%e3%82%8f%e3%82%8c%e3%81%ab%e3%81%a8%e3%81%a3%e3%81%a6%e8%a4%92%e3%82%81%e8%a8%80%e8%91%89%e3%81%a0%e3%82%88%e2%9d%a4(%e3%81%aa%e3%81%ab%e3%81%84%e3%81%a3%e3%81%a6%e3%82%93%e3%81%a0)%e3%82%b3%e3%83%94%e3%83%9a%e3%81%a8%e3%82%86%e3%81%86%e6%89%8b%e3%81%8c%e3%81%82%e3%81%a3%e3%81%9f%e3%80%82 10%2f29%7e10%2f39+-+%e9%96%a2%e6%9d%b1%e5%9b%bd%e9%9a%9b%e6%96%87%e5%8c%96%e7%a5%ad%e2%9c%a8%0a%0a%e3%82%81%e3%81%a3%e3%81%a1%e3%82%83%e6%a5%bd%e3%81%97%e3%81%8b%e3%81%a3%e3%81%9f%ef%bc%81%0a%0a1%e6%97%a5%e7%9b%ae%e3%81%ae1%e5%b9%b4%e3%81%ae%e8%88%9e%e5%8f%b0%e7%99%ba%e8%a1%a8%e3%81%99%e3%81%94%e3%81%8b%e3%81%a3%e3%81%9f%ef%bc%81%0a%0a%e3%83%80%e3%83%b3%e3%82%b9%e9%83%a8%e3%80%81%e3%83%90%e3%83%88%e3%83%b3%e9%83%a8%e3%80%81F%e9%83%a8%e5%85%a8%e9%83%a8%e7%b4%a0%e6%95%b5%e3%81%a7%e3%81%97%e3%81%9f%f0%9f%91%8f%f0%9f%8f%bb%0a%0a%e3%81%9d%e3%81%97%e3%81%a6WSS%e3%81%ae%e6%b4%bb%e5%8b%95%e3%81%af%e6%80%9d%e3%81%a3%e3%81%a6%e3%81%9f%e3%82%88%e3%82%8a%e5%bf%99%e3%81%97%e3%81%8b%e3%81%a3%e3%81%9f%e3%81%91%e3%81%a9%e3%81%84%e3%81%84%e7%b5%8c%e9%a8%93%e3%81%ab%e3%81%aa%e3%81%a3%e3%81%9f%0a%0a%e5%86%99%e7%9c%9f%e6%92%ae%e3%81%a3%e2%80%a6+https%3a%2f%2ft.co%2f4Jz3H1fGad RT+%40thierryneuville%3a+After+SS20+%23WRGB+%0a1.Ogier%0a2.Tanak+%2b23.0%0a3.Neuville+%2b1%3a39.7%0a4.Paddon+%2b1%3a53.1%0a5.Meeke+%2b2%3a36.5%0a6.Sordo+%2b3%3a54.0%0a7.Latvala%e2%80%a6 %408_f_Dolphin+26%3a39%e3%81%a7%e7%a7%81%e3%81%8c%e3%81%8a%e3%81%8b%e3%82%93%e3%81%8b%e3%82%89%e9%9b%bb%e8%a9%b1%e3%81%8c%e3%81%8b%e3%81%8b%e3%81%a3%e3%81%a6%e3%81%8d%e3%81%a6%e7%b5%82%e4%ba%86%e3%81%97%e3%81%9f%e2%80%a6%e2%80%a6(%e3%81%97%e3%81%8b%e3%81%97%e3%81%8b%e3%81%91%e7%9b%b4%e3%81%97%e3%81%9f) %ea%b0%95%eb%82%a8%ec%95%bc%ea%b5%ac%ec%9e%a5+%e2%99%a5%eb%a7%a4%ec%a7%81%eb%af%b8%eb%9f%ac+%ec%b4%88%ec%9d%b4%ec%8a%a4%e2%99%a5%0a%e2%98%9eOIO.2I56.9I39%e2%96%b6%ed%83%9c%ed%9d%ac%eb%a7%8c+%ec%b0%be%ec%95%84%ec%a3%bc%ec%84%b8%ec%9a%94%e2%99%a5%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ea%b0%95%eb%82%a8%ed%92%80%ec%8b%b8%eb%a1%b1%0a%23%ec%97%ad%ec%82%bc%ec%95%bc%ea%b5%ac%ec%9e%a5%0af4521 %40ww2db+%40Son_of_Sandor+%40AMMWWII+30+Oct+39%3a+FLINT%e2%80%99S+ROUTE+HELD+A+MILITARY+SECRET+BY+NAZI+OFFICIALS+https%3a%2f%2ft.co%2fS06na9rvzJ %ef%bc%b2%ef%bc%a5%ef%bc%b4%ef%bc%b7%ef%bc%a5%ef%bc%a5%ef%bc%b4%ef%bc%a4N%0a%ef%bc%a9%ef%bc%a6%0a%0a%ef%bc%b9%ef%bc%af%ef%bc%b5%0a%0a%ef%bc%a6%ef%bc%af%ef%bc%ac%ef%bc%ac%ef%bc%af%ef%bc%b7%ef%bc%a2%ef%bc%a1%ef%bc%a3%ef%bc%ab%0a%f0%9f%8c%9f%23TM1DN+%f0%9f%8c%9f%0a%0a%f0%9f%8c%9f%40Arab_Arabism+%0a%f0%9f%8c%9f%40betto_elcapi26+%0a%f0%9f%8c%9f%402020sahara+%0a%f0%9f%8c%9f%40VIP_Follow888+%0a%f0%9f%8c%9f%40sweetsexy_39+%0a%f0%9f%8c%9f%40Yaky549+%0a%f0%9f%8c%9f%40oda_f 9%3a30am+10%2f30%2f2016+Temp%2fDwpt%3a+39%c2%b0F%2f38%c2%b0F+(H+46%2fL+39)++Hum%3a+96%25+Wind%3aN+0G7mph+Baro%3a+29.91in+Rain%3a+0.00in PNY+Turbo+256GB+USB+3.0+Flash+Drive+%2439.94+%40+Amazon+-+Thumb+Score%3a+%2b1+https%3a%2f%2ft.co%2ffbjyR9hlWw+PNY+Turbo+256+GB+...+https%3a%2f%2ft.co%2fvaxxSrfVER PNY+Turbo+256GB+USB+3.0+Flash+Drive+%2439.94+%40+Amazon+https%3a%2f%2ft.co%2fzr9Rs8Jdi1 %e3%83%a9%e3%83%97%e3%83%b3%e3%83%84%e3%82%a7%e3%83%ab%e3%81%bf%e3%81%9f%e3%81%84%ef%bc%81+%2f++%e3%83%8f%e3%83%bc%e3%83%ac%e3%82%af%e3%82%a4%e3%83%b3%e8%a6%8b%e7%b4%8d%e3%82%81+https%3a%2f%2ft.co%2fzLEJhTTXLv+%7c+52%3a39%e7%b5%8c%e9%81%8e No.20%e3%80%80A.F.%e3%80%80%e3%83%95%e3%82%a7%e3%82%a2%e3%83%aa%e3%83%bc%0a94%2c39%2c94%2c62%2c155%2c52%0a%e3%83%95%e3%83%a9%e3%83%af%e3%83%bc%e3%83%99%e3%83%bc%e3%83%ab (Met)+WSPD%3a+27+kn+%2f+GST%3a+39+kn+%2f+WVHT%3a+11.2+ft+%2f+DPD%3a+15.0+s+%2f+WDIR%3a+160%c2%b0+%2f+ATMP%3a+58%c2%b0+F+%2f+DEW%3a+58%c2%b0+F+%2f++5%3a50a+PDT RT+%40PittWxSTEM%3a+Football+Weather+History+10-30-1954+in+Morgantown%2c+WV%2c+Pittsburgh+(PA)+13%2c+West+Virginia+10%2c+high+was+39+F%2c+low+was+34+F. PNY+Turbo+256GB+USB+3.0+Flash+Drive+%2439.94+%40+Amazon+https%3a%2f%2ft.co%2fb7CUHlabDe %23SiouxFalls+%23SouthDakota+Oct+30+07%3a56+Temperature+39%c2%b0F+overcast+Wind+NE+7+km%2fh++Humidity+95%25+..+https%3a%2f%2ft.co%2f9Tg0kj0GIK 9h+Pocono+Township%2c+PA%3a+Temp.+63.1+%c2%b0F%2c+Hum.+39+%25%2c+Bar.+1013.8+hPa%2c+Rain+0+in%2c+Wind+-+Calm+%23Weathercloud en fr ja ko in nl it es pt und pl <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a> <a href="http://dlvr.it" rel="nofollow">dlvr.it</a> <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a> <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a> <a href="http://www.bfa-emploi.fr" rel="nofollow">BFA Twitt</a> <a href="http://saratoga-weather.org/scripts-TweetWX.php#TweetWX" rel="nofollow">TweetWX</a> <a href="http://sandaysoft.com/" rel="nofollow">Sandaysoft Cumulus</a> <a href="http://www.weather-display.com" rel="nofollow">Weather Display Tweet</a> <a href="http://twitter.com/USACities/cities" rel="nofollow">Cities</a> <a href="http://twitterfeed.com" rel="nofollow">twitterfeed</a> <a href="https://twihaialert.net/" rel="nofollow">ãƒ„ã‚¤å»ƒã‚ã‚‰ãƒ¼ã¨</a> <a href="http://www.buoyalarm.com" rel="nofollow">Buoy Alarm</a> <a href="https://market.android.com/developer?pub=%E3%82%82%E3%81%B5%E3%81%AD%E3%81%93" rel="nofollow">TweetMag1c for Android</a> <a href="http://www.weatheronline.co.uk/Japan/Tokyo.htm" rel="nofollow">update weather tokyo</a> <a href="http://tweet.thegisfactory.com" rel="nofollow">Blazzr</a> <a href="http://plus.meteoware.com/netatmo/" rel="nofollow">MeteoWare Plus+</a> <a href="http://www.woweather.com/USA/SanDiego.htm" rel="nofollow">update weather san diego</a> <a href="http://www.woweather.com/Louisiana/NewOrleans.htm" rel="nofollow">update weather new orleans</a> <a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a> <a href="http://www.apple.com" rel="nofollow">iOS</a> <a href="https://mobile.twitter.com" rel="nofollow">Mobile Web (M5)</a> <a href="http://www.facebook.com/twitter" rel="nofollow">Facebook</a> <a href="https://project-diva-ac.net/" rel="nofollow">DIVA.NET</a> <a href="https://icondecotter.jp/" rel="nofollow">iconDecotterã€€</a> <a href="http://twittbot.net/" rel="nofollow">twittbot.net</a> <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a> <a href="http://nourl.yet" rel="nofollow">VBPosts</a> <a href="http://twitcasting.tv/" rel="nofollow">TwitCasting</a> <a href="http://botbird.metabirds.net" rel="nofollow">Botbird tweets</a> <a href="https://weathercloud.net" rel="nofollow">Weathercloud</a> false true  yun89_39 f_kawasaki_mn pop_f_0625 39_mi7 f_kooo _Feb_F Arirang_726 HONTANG__39 maruuu_39 8_f_Dolphin ww2db  792750701432537088 792741186104459264 792740443993747456 792739200005050368 792735791235555328 792735292402786304 792734954199232512 792734719171452928 792734382389723136 792734584995581952 792734322117611521 792733142297616385 792732331018629122 792731415079104513 792728927840178176 792728353186861056 792728261432270848 792727865171202048 792727273602297858 792725950576275456 792721740367470593 792713014030045184  £85072547   @¦,¾äA2784060722 760756049137635328   @$ËÚæA3067500834   àízkñA4676103902 766651463615389696    P©EòA4904883458 754708520834961410 754926968198406145   °B¢ÒñA4784268331 ß]42950111 1  561     0    28    1    2    3    24 $   36    29    5 ‹  395     0    1    2 
+   10 false false false      0    2    1    12  ColvilleWX,WA LakeHuronWX ë‹¹ì‹ ì˜ìƒ‰ìƒì½”ë“œ SiouxFalls,SouthDakota weather alwx SanDiego,California NewOrleans,Louisiana SleepMeister halaal DIVANET iconDecotter BonsPlan MANCHESTER,DEALS TM1DN WRGB ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ê°•ë‚¨í’€ì‹¸ë¡±,ì—­ì‚¼ì•¼êµ¬ì¥ Weathercloud  ColvilleWX LakeHuronWX ë‹¹ì‹ ì˜ìƒ‰ìƒì½”ë“œ SiouxFalls weather alwx SanDiego NewOrleans SleepMeister halaal DIVANET iconDecotter BonsPlan MANCHESTER TM1DN WRGB ê°•ë‚¨í’€ì‹¸ë¡± Weathercloud    1     0    2 https://www.washingtonpost.com/news/wonk/wp/2016/10/20/toddlers-have-shot-at-least-50-people-this-year/ http://dlvr.it/MYZpsQ  http://bfa-emploi.fr/annonce/9438-moodys-analytics-sas.html http://bit.ly/2f1bYXB http://www.color-hex.com/color/DE9F39,https://kr.shindanmaker.com/674511 http://toplocalnow.com/us/minneapolis?section=weather http://bit.ly/n26yL9 http://ameboguru.com/iphone-7/ http://www.color-hex.com/color/2F3B39,https://kr.shindanmaker.com/674511 http://bit.ly/goNGdH http://bit.ly/hQC05B http://bit.ly/XnCzN6 http://dlvr.it/MYZ8ZM http://live.eendracht-aalst.be/ http://gildaesploratorierranti.net:8245/viewtopic.php?f=39&t=1788&p=13916#p13916 https://icondecotter.jp/?f=26520 http://gildaesploratorierranti.net:8245/viewtopic.php?f=39&t=1789&p=13915#p13915 http://chilp.it/b98d7eb http://fb.me/332zZrp3t http://ebay.to/2ftiuJC http://www.nicovideo.jp/watch/sm13299882 http://dlvr.it/MYYfbV http://goo.gl/Vdc8Dl https://twitter.com/i/web/status/792726674433384448 http://www.freerepublic.com/focus/f-chat/2374420/posts https://www.amazon.com/dp/B00JN1TOHM?psc=1,http://ow.ly/rjhQ505XJk3 http://bit.ly/2f5EQwt http://cas.st/130129fd http://dlvr.it/MYXxVv https://www.washingtonpost.com/news/wonk/wp/2016/10/20/toddlers-have-shot-at-least-50-people-this-year/ http://dlvr.it/MYZpsQ  http://bfa-emploi.fr/annonce/9438-moodys-analytics-sas.html http://bit.ly/2f1bYXB http://www.color-hex.com/color/DE9F39 http://toplocalnow.com/us/minneapolis?section=weather http://bit.ly/n26yL9 http://ameboguru.com/iphone-7/ http://www.color-hex.com/color/2F3B39 http://bit.ly/goNGdH http://bit.ly/hQC05B http://bit.ly/XnCzN6 http://dlvr.it/MYZ8ZM http://live.eendracht-aalst.be/ http://gildaesploratorierranti.net:8245/viewtopic.php?f=39&t=1788&p=13916#p13916 https://icondecotter.jp/?f=26520 http://gildaesploratorierranti.net:8245/viewtopic.php?f=39&t=1789&p=13915#p13915 http://chilp.it/b98d7eb http://fb.me/332zZrp3t http://ebay.to/2ftiuJC http://www.nicovideo.jp/watch/sm13299882 http://dlvr.it/MYYfbV http://goo.gl/Vdc8Dl https://twitter.com/i/web/status/792726674433384448 http://www.freerepublic.com/focus/f-chat/2374420/posts https://www.amazon.com/dp/B00JN1TOHM?psc=1 http://bit.ly/2f5EQwt http://cas.st/130129fd http://dlvr.it/MYXxVv     0    1    2    6    3    7  yun89_39 CinemaInFrames f_kawasaki_mn pop_f_0625 39_mi7 bengoldacre yun89_39,puu009 eendrachtaalst Bron_ElGram card_spiral f_kooo _Feb_F,Arirang_726 _Feb_F,HONTANG__39 _Feb_F Arirang_726,HONTANG__39 HONTANG__39 CyborgN8VMari GaloNews_ Sugee111,Arab_Arabism,betto_elcapi26,2020sahara,VIP_Follow888,sweetsexy_39 fl_mobile maruuu_39 thierryneuville 8_f_Dolphin ww2db,Son_of_Sandor,AMMWWII Arab_Arabism,betto_elcapi26,2020sahara,VIP_Follow888,sweetsexy_39,Yaky549,oda_f PittWxSTEM  yun89_39 CinemaInFrames f_kawasaki_mn pop_f_0625 39_mi7 bengoldacre eendrachtaalst Bron_ElGram card_spiral f_kooo _Feb_F Arirang_726 HONTANG__39 CyborgN8VMari GaloNews_ Sugee111 fl_mobile maruuu_39 thierryneuville 8_f_Dolphin ww2db Arab_Arabism PittWxSTEM     0    1  https://twitter.com/whip_sd_39/status/792736176050319360/photo/1 https://twitter.com/JosephWeather/status/792734323401117696/photo/1 https://twitter.com/GaloNews_/status/792461882565201920/video/1  https://twitter.com/whip_sd_39/status/792736176050319360/photo/1 https://twitter.com/JosephWeather/status/792734323401117696/photo/1 https://twitter.com/GaloNews_/status/792461882565201920/video/1     0       0    1  https://pbs.twimg.com/media/CwBdUznVMAAeO_s.jpg https://pbs.twimg.com/media/CwBbqlPUEAMI-6w.jpg https://pbs.twimg.com/ext_tw_video_thumb/792461371753496576/pu/img/MSX3JQFAONTfqgXN.jpg  https://pbs.twimg.com/media/CwBdUznVMAAeO_s.jpg https://pbs.twimg.com/media/CwBbqlPUEAMI-6w.jpg https://pbs.twimg.com/ext_tw_video_thumb/792461371753496576/pu/img/MSX3JQFAONTfqgXN.jpg popular recent en fr ja ko in nl it es pt und pl ’Of 6705042 Mğ 537915469 s²”C1133818483   Àï£ÇçA3191676798 ùÍ80607489    ®EäA2691313008 I18499969 ã67603939   à@ÒÓèA3332280839 Hr74613064 ÀD½
+180176064 úQå350573050 dd³246637668 744209430246391808   @¦,¾äA2784060722 705418370745810945 Y–236869721 º½E289783226  iğ401631520 7[	156972957 ä×6=1027004388    EPèA3230302760 792183967684370433   ¦h¡ğA4464216673   @$ËÚæA3067500834 ±“ 111186865 ‡Í248352903 K*/254749259 760756049137635328 $IU425019684   €\á2éA3382119140   €%ßåA2886662444 Ö?Z140132310 KÙ‰428464459 ”O2849170324 +Vx242767403   À?‘âA2427226622   €êKæA2992408404 732206155540271104 ú:‹H1217084154 754708520834961410    P©EòA4904883458 766651463615389696 ñÒÅ29741809 pBR1377583728 YÖñ82957913 Ü
+182196237   ÀpmèA3223546758   À¯–_âA2466035070 `e=Y1497195872 h›387423080 ·ƒ327389111   À—¦àA2162504894 ¯í„*713354671   `ËAëæA3076132443 a}108880148   @'²¿çA3187511610 717719631260061698 789732411923898368   €Ê) îA4026617428 H‰ñ!569477448 750937876523876353 ŠÚ	487185034 òÀ33997042 |9137955452 ô;‰59325428    dâA2429755536   àd±èA3314229415 $236867876 X9403388760 Õ“#371430357   €Æû®æA3044531764 ben goldacre Stevens Co WX ã¼ã³ãƒ¼ Alicia Christian Emploi Banque Westford Weather Chandler AZ Weather Bemidji Weather Lake Huron Weather KirklandWeather.com Weather æ­´å²å­¦é–¢ä¿‚é›‘èªŒè«–æ–‡æ–°ç€æƒ…å ± Richfield Weather (~14ì¼ ì»¤ë¯¸ì…˜) ì‹  ãŸã¬ã(=^0^=) Minneapolis Now Buoy 46070 svbrï¼ˆã´ã‚ï¼‰ Weather Sioux Falls Unsigned Afrika Newington CT Weather Sammamish Weather CherokeeCoWX ì‹œí—˜ë”°ìœ„ ë²„ë¦° ì§€ ì˜¤ë˜ì¸ ë¼ì§•ì–´ğŸ™ ãƒãƒˆãƒªãƒ§ã‚·å­ Saint Paul Weather Weather San Diego Weather New Orleans ãƒãƒƒãƒ—ã‚³ãƒ¼ãƒ³ SeanNorris ãŒã¡ã‚ƒ Jãƒªãƒ¼ã‚°ãƒ‹ãƒ¥ãƒ¼ã‚¹ Kevin Decadt Bron ElGram Eendracht Aalst ãŸã¤ãˆãµ@ã‚¢ã‚µã‚·ãƒ³ã®å­£ç¯€ ãˆãƒ¼ãã‚…ãƒ¼ã€SHãƒŸã‚¯ã€‘ ãã‚…ã†ï¼Šåƒ•ã‚»ãƒ³J51a ã‚ã‚„ íƒ•  Â´Îµï½€ ê¹€ë°±ì‘¤ ğŸŒ¿æœ´å¥ğŸŒ¿ Joseph Weather Soldes Du Net Eduardo_Rincon11287 Eden Prairie Weather jeremy sailor Fan Events DIVAACãŒå¥½ããªãƒŸã‚¯bot Leandro Silva Hasta Team F #Music4Life #Red Moretown Weatherbot å¾³å…ƒ å‹æˆ ãƒŠãƒ›â†º!å€‰é‡å»‰! ã‚¢ãƒ¼ãƒ Danielle ğŸ’•ğŸ‡¨ğŸ‡­ ivan F1 è©©å”¯ ê°•ë‚¨ì•¼êµ¬ì¥OIOâ–¶2I56â—€9l39 Deplorable Dirk Amy Baron strader55 UpVotedDeals ã¿ã‚Œã„(ã‚†ã†ã‚Š)@ã‚´ãƒ¼ãƒ¤æ˜Ÿäºº H26å¹´åº¦èŠ¦å­¦3-Eã®bot Buoy 46014 Andy siudeal Pocono Weather bengoldacre StevensCo_WX John_F_Bobby KageroPoet Emploi_Banque Westford_VTWx KOA789 BemidjiWx LakeHuronWX kirklandweather BrooklynParkMN historyarticles RichfieldMN 0905_0322 f_kawasaki_mn TLNMinneapolis buoy46070 DBsvbr wx_SiouxFalls Juwon_F NewingtonWX jeffsandweather CherokeeCoWX Pigtle_Fish 39_mi7 _SaintPaulMN wx_san_diego wx_neworleans pop_f_0625 SeanNorris5 gacha_f JLeague_info Sportingcat Bron_ElGram eendrachtaalst SammamishWA Tatsu_F_1309 whip_sd_39 kyu_39_matsu ardn_39 HONTANG__39 Arirang_726 _Feb_F JosephWeather Soldes_Du_Net Eduardo_Rinconn EdenPrairieMN sailor_jeremy Store_Club_Fan PDA_Hatsune_39 leeandrosilva_f HastaTeam F_UVER_39 sweetsexy_39 kvtmoret5 tokurock 8naccho ar___z Blue_Velvet_50 Ivan_F_one shii_laurant vzis8 dwdeardorff Sugee111 strader55 UpVotedDeals beru20000814 H26Ashiya3E_bot buoy46014 AStephman siudeal PoconoTWeather Oxford, England Stevens Co, WA è€å®³  Chandler, AZ Bemidji, MN, USA Cordwood Point, Michigan Kirkland, Washington Brooklyn Park, MN Richfield, MN ì•ŒëŒ X Minneapolis, MN 55.003, 175.284 Tokyo Sioux Falls KissLand Newington, Connecticut Centre, AL ë§ˆí‚¤/ìš”ì‹œì½”ì˜¤ì‹œ ëŸ¬ë¸Œë¼ì´ë²„ ë¼ì§•ì–´ ì…ë‹ˆë‹¹:D ç©´ã¨ç¹‹ãŒã‚Šã¾ã—ãŸsince8.19~ Saint Paul, MN San Diego, CA New Orleans, LA ï½·ï¾ï¾‰ ï½¸ï¾ï¾‹ï¾ï¾™ ï¾‹ï½¯ï¾Šï¾Ÿï¾™ ã€‚ ((ï½¸ï¾ï¾‹ï¾ï¾™ï¾Œï½ªï¾ West Cork, Ireland Ieper Pianezza (TO) Sammamish, WA æ—¥å¤§æ³•å­¦éƒ¨/è‘›è¥¿/ï½½ï¾€ï¾ï¾€ï¾ï½°ï¾„ï¾/ï¾„ï¾ï¾—ï½´ï¾æ”¯éƒ¨/B3 ãƒãƒ‹ã£ã±ã„å±±é ‚ å¹´ä¸­æ¾ã®æ²¼_(:3ã€âˆ )_ â˜†ç¦ç¦å¤§å‰ã„ãŠã¨ã‚ã›ãƒ¼â˜† íŒ¬ë¯¸íŒ… VTOP Joseph Oregon USA Paris tachira- Venezuela Eden Prairie, MN DIVAç­ä½“ã®å‰ã®å¾…æ©Ÿæ¤…å­ Minas Gerais The Moon Moretown, Vermont æ»‹è³€â†’é«˜çŸ¥â†’å²¡å±± Italy ã¡ã‚‡ã£ã¨ã ã‘ã€ã„ãªããªã‚ŠãŸã„ Orlando, Florida 39.196, -123.969 Pittsburgh Pocono Township, Tannersville https://pbs.twimg.com/profile_images/523118410419286016/qXTUFTZR_normal.png https://pbs.twimg.com/profile_images/1980538905/Stevens_Co_WX_normal.jpg https://pbs.twimg.com/profile_images/3580845236/ca512e90d9720332e477c8e607ee2b3e_normal.jpeg https://pbs.twimg.com/profile_images/648502293612990465/HiRhKIzs_normal.jpg https://pbs.twimg.com/profile_images/608284734725193728/vajAC_1b_normal.jpg https://pbs.twimg.com/profile_images/494271863816601600/df96N-0Z_normal.jpeg https://pbs.twimg.com/profile_images/604809829/ICP_logo160x80_normal.JPG https://pbs.twimg.com/profile_images/1024417224/BemidjiWx_Round_300_normal.png https://pbs.twimg.com/profile_images/611451635403988993/e-i7d_45_normal.jpg https://pbs.twimg.com/profile_images/417537714/weather_normal.jpg https://pbs.twimg.com/profile_images/792748531375157248/l2GJOpfd_normal.jpg https://pbs.twimg.com/profile_images/1523541923/________1__normal.png https://pbs.twimg.com/profile_images/792746669133606912/UrOd-LRO_normal.jpg https://pbs.twimg.com/profile_images/792638045140885504/5XXXUimF_normal.jpg https://pbs.twimg.com/profile_images/781095572384079873/rrrkm-ZD_normal.jpg https://pbs.twimg.com/profile_images/705418621439184896/xEP9qRDl_normal.jpg https://pbs.twimg.com/profile_images/378800000285307215/4db8b6e74ac5cc8e5d012f02bf5f9afc_normal.png https://pbs.twimg.com/profile_images/568021846528782336/eqXHnGpI_normal.jpeg https://pbs.twimg.com/profile_images/1614468757/wo-weiss-linien-20px_normal.gif https://pbs.twimg.com/profile_images/744580531283693569/49e-Cq0z_normal.jpg https://pbs.twimg.com/profile_images/3029469630/13e334a9e071485f3684998b042d2628_normal.png https://pbs.twimg.com/profile_images/604489234016145408/hPH5zB1b_normal.jpg https://pbs.twimg.com/profile_images/792362000408084480/V96rJxO2_normal.jpg https://pbs.twimg.com/profile_images/779902139120259072/x32CPT3u_normal.jpg https://pbs.twimg.com/profile_images/792000774515535872/_b8FH3vn_normal.jpg https://pbs.twimg.com/profile_images/792741944032014337/_H5P4_h5_normal.jpg https://pbs.twimg.com/profile_images/1236790608/WO-20px-linien_normal.png https://pbs.twimg.com/profile_images/1249583553/WO-20px-linien_normal.png https://pbs.twimg.com/profile_images/792010277705220096/UNP37144_normal.jpg https://pbs.twimg.com/profile_images/732269567028953088/bvSfh-x6_normal.jpg https://pbs.twimg.com/profile_images/784023382513680384/EvKse_l8_normal.jpg https://abs.twimg.com/sticky/default_profile_images/default_profile_1_normal.png https://pbs.twimg.com/profile_images/642383547873890304/2hOLruDt_normal.png https://pbs.twimg.com/profile_images/739491414724091904/JefwOiLA_normal.jpg https://pbs.twimg.com/profile_images/2654981209/302087da512a60a830e2376490eb5f83_normal.png https://pbs.twimg.com/profile_images/792741392854360064/_TlwrhFI_normal.jpg https://pbs.twimg.com/profile_images/790224252045623296/srglJz0C_normal.jpg https://pbs.twimg.com/profile_images/792724004100374528/1aqPnJIF_normal.jpg https://pbs.twimg.com/profile_images/792737454100885504/yZm1YjHw_normal.jpg https://pbs.twimg.com/profile_images/761507693009838080/s7LOPSf6_normal.jpg https://pbs.twimg.com/profile_images/789129747682893824/uY0tlGaY_normal.jpg https://pbs.twimg.com/profile_images/790923910539677696/MUIW4btP_normal.jpg https://pbs.twimg.com/profile_images/785038960024100864/sSQRIRY4_normal.jpg https://pbs.twimg.com/profile_images/569867358391369728/VvFndERR_normal.png https://pbs.twimg.com/profile_images/421303206417670145/tYhunvpb_normal.png https://pbs.twimg.com/profile_images/664225106588073984/t0BPjn9s_normal.jpg https://pbs.twimg.com/profile_images/792731868676263936/5Kavn0VF_normal.jpg https://pbs.twimg.com/profile_images/773360510762754048/FowqSOgh_normal.jpg https://pbs.twimg.com/profile_images/487227181547151364/iwZ653m2_normal.jpeg https://pbs.twimg.com/profile_images/718789529268723712/7SwkgVkI_normal.jpg https://pbs.twimg.com/profile_images/779340486922346496/fDhPOhrh_normal.jpg https://pbs.twimg.com/profile_images/378800000175225877/cc5a938f56d2b2d35eb9cc5e6d247472_normal.jpeg https://pbs.twimg.com/profile_images/772761199058399232/6kUIeuZ-_normal.jpg https://pbs.twimg.com/profile_images/787847205054976000/OtX5BhKK_normal.jpg https://pbs.twimg.com/profile_images/578672830021312512/ktIXUqFy_normal.jpeg https://pbs.twimg.com/profile_images/534271877481373696/14P2A5Zr_normal.jpeg https://pbs.twimg.com/profile_images/792547347842543616/7ipRDK-5_normal.jpg https://pbs.twimg.com/profile_images/779265386332065793/MBVxbCjh_normal.jpg https://pbs.twimg.com/profile_images/791683245700214785/nlflOqvM_normal.jpg https://pbs.twimg.com/profile_images/768354652597456897/m74Ev9uv_normal.jpg https://pbs.twimg.com/profile_images/791493937089294336/kiItSapT_normal.jpg https://pbs.twimg.com/profile_images/761092669380505600/SN8-UWUs_normal.jpg https://pbs.twimg.com/profile_images/792717515990249472/DyR0Dhck_normal.jpg https://pbs.twimg.com/profile_images/2527668280/image_normal.jpg https://pbs.twimg.com/profile_images/1285248640/wallst_normal.jpg https://pbs.twimg.com/profile_images/378800000610226015/ca37eaaf8e3bebe6e008a2dcb03712b4_normal.png https://pbs.twimg.com/profile_images/785126152876589056/J3RAoKCz_normal.jpg https://abs.twimg.com/sticky/default_profile_images/default_profile_0_normal.png https://pbs.twimg.com/profile_images/378800000285308835/4db8b6e74ac5cc8e5d012f02bf5f9afc_normal.png https://pbs.twimg.com/profile_images/659712568882130944/LoQuIy6-_normal.jpg https://abs.twimg.com/sticky/default_profile_images/default_profile_4_normal.png https://pbs.twimg.com/profile_images/567928271929483264/mJoVWaib_normal.jpeg Doctor, nerd cheerleader, Bad Science person, stats geek, procrastinator. Currently an academic at CEBM in Oxford https://t.co/B7AvuxJrGV ben@badscience.net Stevens County Weather Watches, Warnings & Advisories issued by the National Weather Service In Spokane. #StevensCoWX #ColvilleWx #Wx #Wa ãŠè–¬çš„ã«è¨€ã†ãªã‚‰é•·æ™‚é–“ã®æ‘‚å–ã¯ãŠæ§ãˆãã ã•ã„ Reader. Sensitive. Lesbian. Filipino. Late bloomer. http://t.co/U0A5I16yAz, Emploi Banque, Finance & Assurance, France/International. BTS, Bac+3/Licence, Ecole de commerce, Bac+5/Master @Stage_Banque @Bfa_emploi Weather conditions updated every 30 minutes from Westford VT  Local Bemidji Weather Northeast Michigan live weather data from the shores of Lake Huron via a  Personal Weather Station.  Check out our web site for detailed weather  information. Real-time weather updates every 30 minutes from Kirkland, Washington, a suburb of Seattle. Weather updates, forecast, warnings and information for Brooklyn Park, MN. Sources: https://t.co/AksTo0jtnS, NOAA, USGS. å›½ä¼šå›³æ›¸é¤¨ã®é›‘ç´¢ã®æ¡éŒ²èªŒã®ä¸­ã‹ã‚‰æ­´å²å­¦é–¢ä¿‚ï¼ˆã¨æ€ã‚ã‚Œã‚‹ï¼‰é›‘èªŒã®æ–°ç€æƒ…å ±ã‚’ãƒã‚¹ãƒˆã—ã¾ã™ã€‚è©¦é¨“é‹ç”¨ä¸­ãªã®ã§ã€ã†ã¾ãã„ã‹ãªãã¦ã‚‚ã”å®¹èµ¦ãã ã•ã„ã€‚ ä½œæˆè€…ã¯@historyanddigiã§ã™ã€‚
+http://t.co/JYIhI2JKtI Weather updates, forecast, warnings and information for Richfield, MN. Sources: https://t.co/AksTo0jtnS, NOAA, USGS. ë§¤ë£Œí•´ì¤¬ìŒí•´, ê¿ˆì˜ ë‹¤ìŒê¹Œì§€ å¤§å­¦2å¹´ã®å·å´ã‚µãƒï¼å°‚æ”»ã¯çµŒå–¶å­¦(ä¼šè¨ˆå­¦)/UVERWorld/å²¸ç”°æ•™å›£ï¼†THE æ˜æ˜Ÿãƒ­ã‚±ãƒƒãƒ„/ãƒ•ãƒªãƒ¼ãƒ©ã‚¤ã‚¿ãƒ¼ã¨ã—ã¦æ´»å‹•ä¸­â˜† Breaking news and weather updates from Minneapolis. Southwest Bearing Sea - Reports every 60 minutes ã¤ã„ã£ãŸãƒ¼åˆå¿ƒè€…ã®ã“ãƒ¼ã“ãƒ¼ã•ã‚“ã­ã‚“ã›ã„ã€‚ã‚²ãƒ¼ãƒ ã¨éŸ³æ¥½ã€æœ¬ï¼ˆã‚¸ãƒ£ãƒ³ãƒ«ã¯å•ã‚ãªã„ï¼‰ã§ç”Ÿãã¦ã„ã‚‹ã€‚çµ¡ã‚“ã§ã‚‚ã‚‰ãˆã‚‹ã¨ã€è¿”ã—ãŸã‚Šè¿”ã•ãªã‹ã£ãŸã‚Š...
+
+moumoon/ã‚µãƒ³ãƒˆãƒ©/ã‚¯ãƒ©ã‚·ãƒƒã‚¯/PEANUTS(SNOOPY)/Aqua Timez/ãƒ–ãƒ©ä¸‰/æ°·è“ Weather Sioux Falls by WeatherOnline Visual Illustrator | Web Developer.       SC:Wutang_j Weather Updates from the World Headquarters of http://t.co/yo3Vh2pyrQ in Newington, Connecticut 06111 USA Current weather in Sammamish courtesy of @jeffsand via my @Netatmo weather station Local Weather reports, and damage reports.- CCEMA911 Pigtle FishğŸ™/ë§ˆí‚¤ì˜¤ì‹œ, ìš”ì‹œì½”ì˜¤ì‹œ + ì†Œì‹¬í•œ ëŸ¬ë¸Œë¼ì´ë²„ ë¼ì§•ì–´ì—ìš©:D /ë‹‰ë³€í–ˆìŠµë‹ˆë‹¹-! (ì–„ë£¨-ë¼ì§•ì–´) ì–„ë£¨ë¼ê³  ë¶ˆëŸ¬ë„ ìƒê´€ ì—†ìŠµë‹ˆë‹¹ :D/ì„ íŒ”í•˜ì‹œë©´ ë§íŒ”í•˜ëŠ” í¸ì…ë‹ˆë‹¹ğŸ˜ƒğŸ˜ƒ/FUB Free ã“ã­ãã‚Šã¾ã‚ã—ã¦ã‚„ã‚‹ã‚¾ï½«( âÌ† Â·Ì«Ì® âÌ† )âœ§ ãŠéš£ã¾ãƒ¼ã¡ã‚ƒã‚ï¾†ï½¼ï¾ƒï¾”ï¾™ï½¡ãŠè…¹ã‹ã‚‰ã“ã‚“ã«ã¡ã‚ã®å¨˜ã¯ï¾˜ï½»ï¾ï¾‚ã€‚ã“ã®ã‚¿ã‚°ã§ã”æŒ‡åãã ã•ã‚Œâ†’ #ãŠã«ããƒ¬ãƒœãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³ ã‚¤ãƒ–ã¡ã‚ƒã‚“ãƒ•ã‚¡ãƒ³1å·/è‚‰ã®èŒãˆèŒãˆã‚½ãƒ†ã‚§/ä¸€å¿ƒåŒä½“ç›¸æ–¹ã‹ã‚‰ã‚ã’@ka_ra_a_ge__Ki #ãŠã«ã‹ã‚‰ã€‚ã‚‰ã¶ã¶â¸@EOQWPU0VroLMLqg Weather updates, forecast, warnings and information for Saint Paul, MN. Sources: https://t.co/AksTo0jtnS, NOAA, USGS. Weather San Diego by WeatherOnline Weather New Orleans
+
+http://t.co/XfiidW33K5 ãƒ•ã‚©ãƒ­ãƒ¼ã—ã¦ãã‚ŒãŸã‚‰ãƒãƒƒãƒ—ã‚³ãƒ¼ãƒ³ã¶ã¡ã¾ã‘ã‚‹ï¼¼(^^)ï¼ä»²è‰¯ããªã‚Œã°ã®è©±ã ãŒã‚ˆã€å¡©ã‹ã‚‚ã—ã‚“ã­ã‡ãã€‚ Day time Accountant in practice, otherwise Sailor. Rugby Fan, Husband, Father of two premmies, 1 deceased and a 1 in 88 åŸ¼ç‰ã¨åƒè‘‰ã¨èŒ¨åŸã®ç‹­é–“ã§å¼•ãã“ã‚‚ã£ã¦ã¾ã™ã€‚
+é§…ãƒ¡ãƒ¢ã¯ã“ã£ã¡â†’@gacha_ekimemo Jãƒªãƒ¼ã‚°ã®æƒ…å ±ã‚’ã¤ã¶ã‚„ã„ã¦ã„ã¾ã™ã€‚è‡ªå‹•ã§ã¤ã¶ã‚„ã‹ã‚Œã‚‹ã®é¬±é™¶ã—ã„å ´åˆã¯ãƒªãƒ ãƒ¼ãƒ–ãã ã•ã„ã€‚ Anderlecht-supporter/Stamnummer 100-supporter| Fiscaal Deskundige FOD FinanciÃ«n/AAFisc/KMO-Controle Kortrijk Profilo di Arihanna e Bron ElGram, Bardi Volanti di MondOltre e 
+Guardiani della Gilda Espoloratori Erranti Welkom op het officiÃ«le twitteraccount van SC Eendracht Aalst | http://t.co/vtgJJXmpVV | http://t.co/nops16zsnp Weather updates, forecast, warnings and information for Sammamish, WA. Sources: https://t.co/AksTo0jtnS, NOAA, USGS. éŠæˆ¯ç‹/ãƒ´ã‚¡ãƒ³ã‚¬ãƒ¼ãƒ‰/WIXOSS/ã‚·ãƒ£ãƒ‰ãƒ                        ãƒ–ãƒ³ãƒœãƒ¼ã‚°/ãƒ€ãƒ¼ã‚¯ãƒ•ã‚§ã‚¤ã‚¹/ãƒ”ãƒ«ãƒ«ã‚¯&ãƒ¡ãƒ«/ãƒ­ã‚¤ãƒ¤ãƒ«                       ã‚¬ãƒ«ãƒ‘ãƒ³/ãƒ’ãƒ¼ãƒ­ãƒ¼ç‰¹æ’®/ãŠé…’/ãƒãƒ³ãƒãƒ¼ã‚°ã‚‚å¥½ãã§ã™ã€‚ æµ®ä¸Šç‡è½ã¡ã¾ã™ã€‚CNï¼šA.Q.(ãˆãƒ¼ãã‚…ãƒ¼) ãƒãƒ‹ãƒ¼ã•ã‚“å‹¢ã§ã™ã€‚ã†ã¡ã®ãƒãƒ‹ãƒ¼ã•ã‚“ã¯ãƒã‚³ãƒŸãƒŸã€‚ ãƒãƒ‹ãƒ¼ãƒ†ãƒ­ã—ã¾ã™(à¹‘Âºâ•°â•¯Âºà¹‘) ã‚°ãƒªã‚ªãƒ³ã•ã‚“ã¨ä½œã£ãŸãƒãƒ¼ãƒ  ã€SHãƒŸã‚¯ã€‘ã§ãƒã°ãƒ—ãƒ­ä¼èª¬ã®ãƒãƒ‹ã£ã±ã„ã€‚ãƒãƒ‹ãƒ¼ã•ã‚“botç®¡ç†ã—ã¦ã¾ã™(@Nekomimi_Honey) 8æœˆ28æ—¥åˆå¾Œ1æ™‚ã€Honey Ï‰ Piecesã€‘ é¦´ã‚Œé¦´ã‚Œã—ã„è±†è…ãƒ¡ãƒ³ã‚¿ãƒ«é‡éƒ(@kyu_39ï¼‰ã®æ¾ã‚¢ã‚« ä¸‰ç”·ãƒ¢ãƒ³ãƒšã®å¹´ä¸­æ¾ãŠã°ã•ã‚“ã§ã™ãŒå³ãƒãƒ§ãƒ­ãªã‚‰ãªã‚“ã§ã‚‚ãŠã„ã—ã„ï¼š) ãŠããƒãƒ§ãƒ­ã‚‚ã‚«ãƒ©ãƒãƒ§ãƒ­ã‚‚ä¸€ãƒãƒ§ãƒ­ã‚‚ä»˜ãåˆã£ã¦ã¦å›°ã£ã¦ã¾ã™ï¼ï¼ï¼ https://t.co/sXjhrahDXR ã¾ã„ã‚¸ãƒ£ãƒ‹ã¨æ¾ç«¹åº§ãŒå¥½ã ì‚¬ë‘ìœ¼ë¡œ ì§‘ì–´ì‚¼í‚¨ ì˜¤ë§Œ, ê´€ì¢…ì…ë‹ˆë‹¤ / í—¤ë”: ì„œì‘¤ë°ˆğŸ˜˜ / @Arirang_913 ë°€ì–‘ ë°•ì— ë¹›ë‚  ê·œ Joseph Oregon Weather and Wallowa county weather. Home hive of the world famous WeatherBee. https://t.co/D1WHi6bUHB           
+https://t.co/CFJOQ3kiku Nous vous proposons tous les jours les Bons Plans d'Amazon. Abonnez-vous pour Ãªtre au courant de tout !
+https://t.co/t35znVKBk4 prof. educacion fisica bb pin: 58BDA06E soy calidad Follow me........... Weather updates, forecast, warnings and information for Eden Prairie, MN. Sources: https://t.co/AksTo0jtnS, NOAA, USGS. Gamer, MMA and combat sport enthusiast, adventurer and survivalists, psycodelic explorer, street art curator, Fitness & Health nut,  podcast guy and McGuyver Suggestions : @liveevents_us @liveevents_uk @liveevents_fr @liveevents_ca Tag Favoris : #Eventssport #LiveEvents åˆéŸ³ãƒŸã‚¯ã ã‚ˆâ™ª Project DIVA Arcade Future Toneã«ã¤ã„ã¦ç´¹ä»‹ã™ã‚‹åŠè‡ªå‹•BOTã ã‚ˆâ™ª æ›²ã®ç´¹ä»‹ã¨ã€é›‘è«‡ãŒãƒ¡ã‚¤ãƒ³ã ã‚ˆâ™ª  ãƒªã‚¹ãƒšã‚¯ãƒˆå…ˆâ†’ã™ã¹ã¦ã®éŸ³ã‚²ãƒ¼botâ™ª  å¤šå°‘ã®ãƒªãƒ—ãƒ©ã‚¤è¿”ä¿¡ã«å¯¾å¿œã—ã¦ã‚‹ã‚ˆâ™ª  æ°—è»½ã«çµ¡ã‚“ã§ã­â™ª ãƒã‚¹ã‚¿ãƒ¼â†’@39ra_marine_nao Atleticano, louco por futebol.ğŸ”ğŸ”ğŸ”
+SejÃ¡ Humilde Pois AtÃ© o Sol Com Toda Sua Grandeza Se PÃµe e Deixa a Lua Brilhar. ãƒ‘ã‚ºãƒ‰ãƒ© UVERworld ãƒ‡ãƒ¬ã‚¹ãƒ†åˆå¿ƒè€… I Love God. Music and Sports. #Twittergoons #TPW #TTO #M4L #SUN #TRU #TeamDiggz #GNation #TURNEDUP #Muzikkzone #TPI #MZBNIKKI #TheOhioPlayersProject Weather station in Moretown, Vermont, Davis VangtageVue, follow me for hourly weather updates. ãƒ•ãƒƒãƒˆã‚µãƒ«ã¨å¤ªè¦‹å¯¿äººé¸æ‰‹ã¨æ–°å±±è©©ç¹”æ­Œæ‰‹ 98'ï¸°Mieâœˆï¸°okuraâšsigeokaâšnagaseâš â KIHS â 1æ¤¿ ((HE)) WSS - it was over before it began Tu es et tu seras toujour la plus belle saison de ma vie: No MD s'il vous plaÃ®t-no DM please!!! è›¸æ²¼ãªç­ˆã®Dåˆå¿ƒè€…ã®å¢ã ã£ãŸã‚Šã—ã¾ã™ã€‚åŸºæœ¬çš„ã«è‡ªç”±æ°—ã¾ã¾ã«å–‹ã£ã¦ã‚‹ã€‚ãƒã‚¹ã‚¿ãƒ¼ã¯ãƒãƒ‡ã‚¹æ§˜ãŒã™ãã€‚ãƒ¬ã‚¤ãƒ¤ãƒ¼ã§ã™ã€‚è‹¦æ‰‹ãªæ–¹ã¯æ³¨æ„ Catholic, conservative, retired, student of Civil War era and Second World War. Follow for live tweets from #160YearsAgo. Trump's a nut, but #NeverHillary @labebacard @LiliBodo @Dutch2haze @1LA_Lady @AdryMMP #Team1Diana #1First @alaura2015 @I____Free #BIGDAD #TFBJP #teamlovefriends 
+https://t.co/JHb9EWcKki Options Momentum Volume Trader and Dealhunter Real time feed of community upvoted deals so you can focus on the gems and ignore the noise. ä½ç·UC1å¹´å¥³å­ã§ã™ã£ã£ï¼
+â†’ã‚¢ã‚¤ã‚³ãƒ³ã€ãƒ˜ãƒƒãƒ€ãƒ¼ã¯æœ¬äºº*ï¾Ÿ
+
+likeâ–¶â©å£°å„ªã€ç‰¹ã«æ°´æ¨¹å¥ˆã€…ã€ã¯ã˜ã‚ã—ã‚ƒã¡ã‚‡ãƒ¼ã€ã‚¢ãƒ‹ãƒ¡ã€éŸ³æ¥½â™ªç­‰ã€…
+
+
+
+nana ã§æ­Œã£ã¦ã‚‹äººã§ã™ã™ã™ï¼
+https://t.co/uy3doQrHl1â€¦ botã§ã™ãŒæ‰‹å‹•ã§ãƒ„ã‚¤ãƒ¼ãƒˆã™ã‚‹å ´åˆã‚‚ã‚ã‚Šã¾ã™ã€‚ãƒ•ã‚©ãƒ­ãƒ¼ã¯å®Œå…¨æ‰‹å‹•ã§ã™ã€‚
+ãŸã¾ã«ãƒ¡ãƒ³ãƒãƒ¼ãŒãƒã‚±ãƒ¢ãƒ³åŒ–ã—ãŸæ™‚ã®ç¨®æ—å€¤ã‚‚å‘Ÿãã“ã¨ãŒã‚ã‚Šã¾ã™ã€‚(åå‰ã¯åâ†’å§“ã®é †ã«ã‚¤ãƒ‹ã‚·ãƒ£ãƒ«è¡¨è¨˜)
+èˆˆå‘³ãŒãªã‘ã‚Œã°ãƒ–ãƒ­ãƒƒã‚¯ã—ã¦ä¸‹ã•ã„ã€‚ 19 NM North of Point Arena, CA - Reports every 60 minutes Get your local Pocono Township Weather here!  Updated hourly and daily with the local weather conditions in Pocono Township, Tannersville, Pa 18372 http://t.co/OMQcmqGpuf http://t.co/zVPtM0dCm9  http://t.co/A3WBfARy4o http://t.co/QfMU7jzzVF http://t.co/VIbmfshE5r http://t.co/sXBhFzgP45 http://t.co/vdTniXrmTC https://t.co/g7t3CrMuXA http://t.co/jlTrOd3d6t https://t.co/MoaYj6bb47 http://t.co/Mhr3w45gPc https://t.co/skY1RxOTJV http://t.co/q2Vo0gmBlr http://t.co/JUk1h1GuQl http://t.co/6W0Q0oYl1m https://t.co/b2D7LF0BL6 https://t.co/04rz6PmUta http://t.co/2pj1Gvcq3J http://t.co/nops16zsnp https://t.co/VvbJ68ej3z https://t.co/nVbGTj0XUQ https://t.co/5QVjbC45Ie https://t.co/cmofPnDAoG https://t.co/GgD4qV6FSk http://t.co/aUSfRIc4s9 http://t.co/bqycYfTMsP https://t.co/aqL9NpDNGf http://t.co/8JzVryZV2c http://t.co/uDP9EnCW5S https://t.co/1loWYpeiCo https://t.co/yyAuE4SfeO http://t.co/eq0H9akIjK http://t.co/TZn5WMhgZ9 http://t.co/YxqTeugPVx false true false ×" 467671 A   65 ;  315 ï   239 	  2307 N   78 Ş   222 '  295    24 8   56 B   66 è  3048 %   37 \   92   516 ]   93    5 S  339 ‘   145 |  892 I   73    18    1 r   114 |  380 œ   156 ƒ   131   282 ?  319 Û  731 å   229 a   97 f   102 º   186 ®  1454 6   54 Ğ   208 İ   221 
+  266 \  348 c  355 ¢   162 0   48 J   74 ƒW  22403 ´   180 o   111 6  310 ¦  2214 p  1136 ×  471   279 È   200 T&  9812    4 _  351 Ã   195 #  1571 d   100 -   45 £  419 ¢G  18338   1544 œ  412 5  309 H  328 ¸   184    22 ÿ  2303    6   280 I  585    29 &   38 S   83 •   149 1   49     0 q   113 '  551    14 î   238    4   529    2    12    129 M  333    23 R   82 ×   215   535   277    1 <  316 †   134    8 ©   169 ‰   137 k   107 U   85 ^   94 ¡   161 -   45 4   52 È  7880 ¸  1720 5  565   1036 L  1356 	   9 ˆ   136 (  4904 ¶  438 ^  350 Á   193 í  1005 c   99 /   47 H  328 2  12820 t  1652    144 Ã  963 
+   10 z   8314    3    8 	   9 
+  266    1    4    6 Ø   216    5     0    23    15    2    27    11    24    14 [   91     32    29    13    26 $  292 
+   10 ş  510 ™   153 =   61    7    20 <   60 r   114 @   64    16 K   75 P  1872     0   535 ª  6058    7    2 î  1006 å  8165 L  6220 >   62 y  1657 Îl  27854 0  2096 :  3898 3  4915 Ğ   208 A1  12609 G  18200 
+	  2314 ·  5303 ˆ  904 Õ  2005    30    11 ¿   191 '  1319 í  749 …  389 –  406    3 A  321 &5  13606 Ó  1491 ï  495 ì  3564 ¸  4024 “  1171   1309 D  1860 ç¹  47591   3608 H  18439 Åâ  58053 o›  39791 C©  43331 °  6064 - 334893 Ø’  37592  133911 Ø‰ 100824 W  4695 lÏ 118636 ’^  24210 n6  13934 FT  21574 ‹!  8587 ¤m  28068 „/  12164 …ù  63877 k" 74347 ÊÅ  50634 ¨3 78760 íg  26605 ±3  13233 -   45 b  1890 SM  19795 èi  27112 UÇ  51029 ¬¾  48812 Ò  5330 İr  29405 ‹7  14219 jé  59754 o  2159 M  19853 9  3641 ­P  20653 M  19717 •œ  40085 ³  6323 åŒ  36069 `  4448 Ÿ  3231 ™  2201 ´b  25268 |] 875900 ¨
+  2728  [  23456   785 B½ 2080066 = 81310 o  1391   3603 Q  1873 è2 78568 ³+  11187 N  7246   895 C  323 9!  8505 \  860 F%  9542 J  4170 J=  15690 [#  9051 G 131655 Y 153863 F  1094 r  6002 2Ì 117810 ‡2  12935 2J 346674 óA  16883 €…àĞ_)ã@¦9xáhä@[¥Dy+ä@±äKç’ä@:m µ“ã@h/¡ı?oä@ğÍ+§pã@í0u¹Ñã@TY\«—ä@|‘ã@Lh/á »ã@Š\„`çã@sEn&Ğã@=XvÅä@$öqsä@N1jø¸ä@_B{‰Äã@:m SÈÚã@<+	Üñã@]y@²q³ã@ûƒ&ä@
+âd’D•ä@{	í¥Öä@f|èiñ¬ä@Æ æŠä@„Ô;£¢ã@Ôğ·i›Ğã@d³­’>Òã@jv+Ëä@•åŒ±õã@ÖÄ³b² ä@ä" {ä@r×­ã@V4°:öã@xl¶•pä@ß¼š8Ïã@Pú¤±`ä@PïV…ä@sğÂjRÁä@,H–C.ä@·J‰rÉä@%ÕÚuÅµä@ˆ
+4Íä@”>éÓô|ã@‰ˆˆˆ—5ä@Gì;vÚ”ã@e+OÂ»ã@ÿ‚CY”ä@?ŞÒ\cä@tÏÅc;ä@S—"ïã@„Ô{²âã@Of±Mä@‡©Ëí?ä@´¢‘€ÀŠä@RÃß¦«¡ã@‹;A\n’ä@íó5S¼ä@ÍÁ+*Õä@[¥Dùš§ä@é“>)ûä@[»Æ|ÈÇä@…à„şã@ö(\™~ã@G÷ü	­ã@Ìâ"Šã@ÄÉ$•ã`ä@âYÑH¬ä@¶kÌWÄã@¸4ï0òã@¢§ó›ëã@’jí¨ˆä@    0 ÿÿ-25200 ~  32400 €p  28800   3600 ĞÕÿÿ-10800 °¹ÿÿ-18000 `sÿÿ-36000 €ÿÿ-28800     7200 ÀÇÿÿ-14400 àãÿÿ-7200 London Pacific Time (US & Canada) Tokyo Hong Kong Amsterdam Atlantic Time (Canada) Arizona Central Time (US & Canada) Hawaii Alaska  Dublin Seoul Brussels Rome Irkutsk Athens Caracas Brasilia Eastern Time (US & Canada) true false en ja fr ko it nl es pt false false false false  9807c5c5f7a2c6ce 1b86771ff62f45fb 5527cc189b162d13 60e2c37980197297 a13934ca3a64f53d a1a25de9f5efa69b  https://api.twitter.com/1.1/geo/id/9807c5c5f7a2c6ce.json https://api.twitter.com/1.1/geo/id/1b86771ff62f45fb.json https://api.twitter.com/1.1/geo/id/5527cc189b162d13.json https://api.twitter.com/1.1/geo/id/60e2c37980197297.json https://api.twitter.com/1.1/geo/id/a13934ca3a64f53d.json https://api.twitter.com/1.1/geo/id/a1a25de9f5efa69b.json  admin city  Minnesota Brooklyn Park Richfield St Paul West Lake Sammamish Eden Prairie  Minnesota, USA Brooklyn Park, MN Richfield, MN St Paul, MN West Lake Sammamish, WA Eden Prairie, MN  US  United States  Polygon   Point  ¨\	ø¾WÀ-94.98388889 ×£p=
+WWÀ-93.36 R¸…ëQWÀ-93.28 ö(\ÂEWÀ-93.09 fffff†^À-122.1 ®Gáz^WÀ-93.47  +[w5ñÔG@47.66361111 ìQ¸…‹F@45.09 q=
+×£pF@44.88 ¸…ëQxF@44.94 
+×£p=ÊG@47.58 ÍÌÌÌÌlF@44.85  Point  +[w5ñÔG@47.66361111 ìQ¸…‹F@45.09 q=
+×£pF@44.88 ¸…ëQxF@44.94 
+×£p=ÊG@47.58 ÍÌÌÌÌlF@44.85  ¨\	ø¾WÀ-94.98388889 ×£p=
+WWÀ-93.36 R¸…ëQWÀ-93.28 ö(\ÂEWÀ-93.09 fffff†^À-122.1 ®Gáz^WÀ-93.47  791985941804187649 789918985383010304 792737909837271044 792717241250742272 792069824201494528 792461882565201920 792721017760260096 792618129369149440 792690107765690368 792713353395396608 {o)ñÕä@‚8™¤:Õä@;W3Öä@#ß¼1Öä@Å³¢‘øÕä@°[0Öä@AœL2Öä@8¤eü(Öä@\šƒW/Öä@n•e1Öä@ STRAIGHT OUTTA COMPTON (2015)
+Cinematographer: Matthew Libatique
+Aspect Ratio: 2.39:1
+Director: F. Gary Gray https://t.co/LKpb2NN4U4 Toddlers have shot 51 people in the US so far this year. 39 shot themselves. 16 fatally. 
+
+F.
+F.
+S.
+
+https://t.co/wvEohrzTzn SK Halle - Eendracht Aalst 1-1 (39' F. Geenens) #halaal
+https://t.co/EYR0soBn36 ã€éŠæˆ¯ç‹ã€€è²·å–â‘£ã€‘
+ãƒ¬ãƒƒãƒ‰ãƒ‡ãƒ¼ãƒ¢ãƒ³ã‚ºãƒ»ãƒ‰ãƒ©ã‚´ãƒ³ãƒ»ã‚¹ã‚«ãƒ¼ãƒ©ã‚¤ãƒˆ700
+SNo.0ãƒ›ãƒ¼ãƒ—ãƒ»ã‚¼ã‚¢ãƒ«100
+No.39å¸Œæœ›çš‡ãƒ›ãƒ¼ãƒ—ã‚¦ãƒ«50
+CNo.39å¸Œæœ›çš‡ãƒ›ãƒ¼ãƒ—ãƒ¬ã‚¤ã‚¹ãƒ¼100ã‚¦ãƒ«200
+ã‚»ãƒ–ãƒ³ãƒ»ã‚·ãƒ³ã‚ºã‚·ã‚¯200
+ãƒˆãƒ¼ãƒ†ãƒ ãƒãƒ¼ãƒ‰1100ã‚·ã‚¯1300
+åãƒ‹ç£ãƒ‰ãƒ©ãƒ³ã‚·ã‚¢400 â€œOne woman was arrested without any cause given, stripped naked, and left naked in a jail cell overnight.â€â€¦ https://t.co/fK6SFyE40N O GOOOOOOOOOOOOOOOOL DO PRATTO NO MINEIRÃƒO 
+
+39' 2ÂºT - Lucas Pratto âš½ï¸
+
+AtlÃ©tico 2 x 1 Flamengo https://t.co/vU4zhrrdoN ï¼²ï¼¥ï¼´ï¼·ï¼¥ï¼¥ï¼´ï¼¤N
+ï¼©ï¼¦
+
+ï¼¹ï¼¯ï¼µ
+
+ï¼¦ï¼¯ï¼¬ï¼¬ï¼¯ï¼·ï¼¢ï¼¡ï¼£ï¼«
+ğŸŒŸ#TM1DN ğŸŒŸ
+
+ğŸŒŸ@Arab_Arabism 
+ğŸŒŸ@betto_elcapi26 
+ğŸŒŸ@2020sahara 
+ğŸŒŸ@VIP_Follow888 
+ğŸŒŸ@sweetsexy_39 
+ğŸŒŸ@Yaky549 
+ğŸŒŸ@oda_f ã€é †ä½è¡¨ã€‘ç¬¬16ç¯€
+1.åå¤å±‹ 39
+2.å¤§é˜ª 37
+3.ã™ã¿ã  35
+4.ç”ºç”° 28
+5.å¤§åˆ† 26
+6.åºœä¸­ 23
+7.æµ¦å®‰ 21
+8.ç¥æˆ¸ 20
+9.åŒ—æµ·é“ 17
+10.æ¹˜å— 11
+11.ä»™å° 8
+12.æµœæ¾ 8
+
+https://t.co/XwhCrWHLvT After SS20 #WRGB 
+1.Ogier
+2.Tanak +23.0
+3.Neuville +1:39.7
+4.Paddon +1:53.1
+5.Meeke +2:36.5
+6.Sordo +3:54.0
+7.Latvala +4:28.2
+#WRC Football Weather History 10-30-1954 in Morgantown, WV, Pittsburgh (PA) 13, West Virginia 10, high was 39 F, low was 34 F.  STRAIGHT+OUTTA+COMPTON+(2015)%0aCinematographer%3a+Matthew+Libatique%0aAspect+Ratio%3a+2.39%3a1%0aDirector%3a+F.+Gary+Gray+https%3a%2f%2ft.co%2fLKpb2NN4U4 Toddlers+have+shot+51+people+in+the+US+so+far+this+year.+39+shot+themselves.+16+fatally.+%0a%0aF.%0aF.%0aS.%0a%0ahttps%3a%2f%2ft.co%2fwvEohrzTzn SK+Halle+-+Eendracht+Aalst+1-1+(39%27+F.+Geenens)+%23halaal%0ahttps%3a%2f%2ft.co%2fEYR0soBn36 %e3%80%90%e9%81%8a%e6%88%af%e7%8e%8b%e3%80%80%e8%b2%b7%e5%8f%96%e2%91%a3%e3%80%91%0a%e3%83%ac%e3%83%83%e3%83%89%e3%83%87%e3%83%bc%e3%83%a2%e3%83%b3%e3%82%ba%e3%83%bb%e3%83%89%e3%83%a9%e3%82%b4%e3%83%b3%e3%83%bb%e3%82%b9%e3%82%ab%e3%83%bc%e3%83%a9%e3%82%a4%e3%83%88700%0aSNo.0%e3%83%9b%e3%83%bc%e3%83%97%e3%83%bb%e3%82%bc%e3%82%a2%e3%83%ab100%0aNo.39%e5%b8%8c%e6%9c%9b%e7%9a%87%e3%83%9b%e3%83%bc%e3%83%97%e3%82%a6%e3%83%ab50%0aCNo.39%e5%b8%8c%e6%9c%9b%e7%9a%87%e3%83%9b%e3%83%bc%e3%83%97%e3%83%ac%e3%82%a4%e3%82%b9%e3%83%bc100%e3%82%a6%e3%83%ab200%0a%e3%82%bb%e3%83%96%e3%83%b3%e3%83%bb%e3%82%b7%e3%83%b3%e3%82%ba%e3%82%b7%e3%82%af200%0a%e3%83%88%e3%83%bc%e3%83%86%e3%83%a0%e3%83%90%e3%83%bc%e3%83%891100%e3%82%b7%e3%82%af1300%0a%e5%8d%81%e3%83%8b%e7%8d%a3%e3%83%89%e3%83%a9%e3%83%b3%e3%82%b7%e3%82%a2400 %e2%80%9cOne+woman+was+arrested+without+any+cause+given%2c+stripped+naked%2c+and+left+naked+in+a+jail+cell+overnight.%e2%80%9d%e2%80%a6+https%3a%2f%2ft.co%2ffK6SFyE40N O+GOOOOOOOOOOOOOOOOL+DO+PRATTO+NO+MINEIR%c3%83O+%0a%0a39%27+2%c2%baT+-+Lucas+Pratto+%e2%9a%bd%ef%b8%8f%0a%0aAtl%c3%a9tico+2+x+1+Flamengo+https%3a%2f%2ft.co%2fvU4zhrrdoN %ef%bc%b2%ef%bc%a5%ef%bc%b4%ef%bc%b7%ef%bc%a5%ef%bc%a5%ef%bc%b4%ef%bc%a4N%0a%ef%bc%a9%ef%bc%a6%0a%0a%ef%bc%b9%ef%bc%af%ef%bc%b5%0a%0a%ef%bc%a6%ef%bc%af%ef%bc%ac%ef%bc%ac%ef%bc%af%ef%bc%b7%ef%bc%a2%ef%bc%a1%ef%bc%a3%ef%bc%ab%0a%f0%9f%8c%9f%23TM1DN+%f0%9f%8c%9f%0a%0a%f0%9f%8c%9f%40Arab_Arabism+%0a%f0%9f%8c%9f%40betto_elcapi26+%0a%f0%9f%8c%9f%402020sahara+%0a%f0%9f%8c%9f%40VIP_Follow888+%0a%f0%9f%8c%9f%40sweetsexy_39+%0a%f0%9f%8c%9f%40Yaky549+%0a%f0%9f%8c%9f%40oda_f %e3%80%90%e9%a0%86%e4%bd%8d%e8%a1%a8%e3%80%91%e7%ac%ac16%e7%af%80%0a1.%e5%90%8d%e5%8f%a4%e5%b1%8b+39%0a2.%e5%a4%a7%e9%98%aa+37%0a3.%e3%81%99%e3%81%bf%e3%81%a0+35%0a4.%e7%94%ba%e7%94%b0+28%0a5.%e5%a4%a7%e5%88%86+26%0a6.%e5%ba%9c%e4%b8%ad+23%0a7.%e6%b5%a6%e5%ae%89+21%0a8.%e7%a5%9e%e6%88%b8+20%0a9.%e5%8c%97%e6%b5%b7%e9%81%93+17%0a10.%e6%b9%98%e5%8d%97+11%0a11.%e4%bb%99%e5%8f%b0+8%0a12.%e6%b5%9c%e6%9d%be+8%0a%0ahttps%3a%2f%2ft.co%2fXwhCrWHLvT After+SS20+%23WRGB+%0a1.Ogier%0a2.Tanak+%2b23.0%0a3.Neuville+%2b1%3a39.7%0a4.Paddon+%2b1%3a53.1%0a5.Meeke+%2b2%3a36.5%0a6.Sordo+%2b3%3a54.0%0a7.Latvala+%2b4%3a28.2%0a%23WRC Football+Weather+History+10-30-1954+in+Morgantown%2c+WV%2c+Pittsburgh+(PA)+13%2c+West+Virginia+10%2c+high+was+39+F%2c+low+was+34+F.  en nl ja pt  <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a> <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a> <a href="http://www.facebook.com/twitter" rel="nofollow">Facebook</a> <a href="http://bufferapp.com" rel="nofollow">Buffer</a> <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a> <a href="https://allegheny.weatherstem.com/pitt" rel="nofollow">Pitt WeatherSTEM</a>  false true        28 1  561    2    3    24 $   36    29    5    1  F   70 ‹  395     0    2    13 /   47    1    22    11  false  false  false     0    1    2  halaal TM1DN WRGB,WRC  halaal TM1DN WRGB     0    1  https://www.washingtonpost.com/news/wonk/wp/2016/10/20/toddlers-have-shot-at-least-50-people-this-year/ http://live.eendracht-aalst.be/ https://twitter.com/i/web/status/792069824201494528 http://sp.f-lg.jp  https://www.washingtonpost.com/news/wonk/wp/2016/10/20/toddlers-have-shot-at-least-50-people-this-year/ http://live.eendracht-aalst.be/ https://twitter.com/i/web/status/792069824201494528 http://sp.f-lg.jp     0    7  Arab_Arabism,betto_elcapi26,2020sahara,VIP_Follow888,sweetsexy_39,Yaky549,oda_f  Arab_Arabism     0    1  https://twitter.com/CinemaInFrames/status/791985941804187649/photo/1 https://twitter.com/GaloNews_/status/792461882565201920/video/1  https://twitter.com/CinemaInFrames/status/791985941804187649/photo/1 https://twitter.com/GaloNews_/status/792461882565201920/video/1     0       0    1  https://pbs.twimg.com/media/Cv2yxj3WAAQ9SuM.jpg https://pbs.twimg.com/ext_tw_video_thumb/792461371753496576/pu/img/MSX3JQFAONTfqgXN.jpg  https://pbs.twimg.com/media/Cv2yxj3WAAQ9SuM.jpg https://pbs.twimg.com/ext_tw_video_thumb/792461371753496576/pu/img/MSX3JQFAONTfqgXN.jpg  recent  en nl ja pt     K™èA3301595224 ’Of 6705042 ”O2849170324    §âA2490710269 ¼
+K21695164   @¸BâA2416580034 òÀ33997042 JÕ¯347067722 kYº146430315    Ïí—îA4106186361  Cinema In Æ’RAMES ben goldacre Eendracht Aalst ã‚«ãƒ¼ãƒ‰å±‹ã™ã±ã„ã‚‰ã‚‹ MariâˆNakawÄ“ #NoDAPL GALÃƒO DA MASSA Amy Baron Fãƒªãƒ¼ã‚°ãƒ¢ãƒã‚¤ãƒ« Thierry Neuville Pitt WeatherSTEM  CinemaInFrames bengoldacre eendrachtaalst card_spiral CyborgN8VMari GaloNews_ Sugee111 fl_mobile thierryneuville PittWxSTEM  Oxford, England unceded Mauche Ute landâ€”Denver Belo Horizonte Orlando, Florida æ±äº¬éƒ½ Belgium Pittsburgh, PA  https://pbs.twimg.com/profile_images/603966406275694594/8-qB37Fy_normal.png https://pbs.twimg.com/profile_images/523118410419286016/qXTUFTZR_normal.png https://pbs.twimg.com/profile_images/2654981209/302087da512a60a830e2376490eb5f83_normal.png https://pbs.twimg.com/profile_images/467849476967653376/Od_wpDv0_normal.jpeg https://pbs.twimg.com/profile_images/785847105583771648/a-gGxyVK_normal.jpg https://pbs.twimg.com/profile_images/780592113251651584/mG9oRqkL_normal.jpg https://pbs.twimg.com/profile_images/2527668280/image_normal.jpg https://pbs.twimg.com/profile_images/1477269017/f_icon_7373_normal.gif https://pbs.twimg.com/profile_images/652503068353892352/4DwFdPIF_normal.jpg https://pbs.twimg.com/profile_images/661606108201623553/pXsBV8dD_normal.jpg  Experience cinema through the magic of frames. Doctor, nerd cheerleader, Bad Science person, stats geek, procrastinator. Currently an academic at CEBM in Oxford https://t.co/B7AvuxJrGV ben@badscience.net Welkom op het officiÃ«le twitteraccount van SC Eendracht Aalst | http://t.co/vtgJJXmpVV | http://t.co/nops16zsnp ãƒˆãƒ¬ã‚«æ¿€æˆ¦åŒºç§‹è‘‰åŸã«çªå¦‚ã‚ªãƒ¼ãƒ—ãƒ³ã—ãŸã€ã‚«ãƒ¼ãƒ‰ã‚·ãƒ§ãƒƒãƒ—ã€€ã™ã±ã„ã‚‰ã‚‹ã€‘ã‚¢ãƒ¼ã‚±ãƒ¼ãƒ‰ã‹ã‚‰ï¼´ï¼£ï¼§ã¾ã§å¹…åºƒãå–ã‚Šæ‰±ã„ï¼è²·å–ã‚‚ãŠä»»ã›ãã ã•ã„â˜†ãƒ‡ãƒ¥ã‚¨ãƒ«ã‚¹ãƒšãƒ¼ã‚¹ç„¡æ–™é–‹æ”¾ä¸­â˜†ã€ç§‹è‘‰åŸã€‘åƒä»£ç”°åŒºå¤–ç¥ç”°ï¼“ï¼ï¼•ï¼ï¼‘ï¼”é–¢æ ¹ãƒ“ãƒ«ï¼“éšâ˜†ãŠå•ã„åˆã‚ã›ã¯03-3255-0020ã¾ã§â™ª #NoDAPL Tribally enrolled NakawÄ“ Ojibwe. LGBTQIA mom with disabilities. Writer. Artist Perfil dedicado ao @atletico! Jogos em tempo real, NotÃ­cias e Curiosidades do CampeÃ£o da â­ï¸ Libertadores â­ï¸ Brasileiroâ­ï¸ Copa do Brasil â­ï¸ Recopa â­ï¸ Conmebol â­ï¸ @labebacard @LiliBodo @Dutch2haze @1LA_Lady @AdryMMP #Team1Diana #1First @alaura2015 @I____Free #BIGDAD #TFBJP #teamlovefriends 
+https://t.co/JHb9EWcKki ï¼¦ãƒªãƒ¼ã‚°å…¬èªæºå¸¯ã‚µã‚¤ãƒˆã€Œï¼¦ãƒªãƒ¼ã‚°ãƒ¢ãƒã‚¤ãƒ«ã€ã®å…¬å¼twitterã§ã™ã€‚ãƒ•ã‚£ãƒ¼ãƒãƒ£ãƒ¼ãƒ•ã‚©ãƒ³ã‚µã‚¤ãƒˆâ‡’http://t.co/6n3tCEHioY docomoã®Androidâ‡’http://t.co/OY7OI8p67X iPhoneç‰ˆâ‡’ http://t.co/I69mSaQzcS Thierry Neuville Official World Rally Championship Driver for @HyundaiWRC Providing real-time weather data for the University of Pittsburgh and surrounding neighborhoods  http://t.co/OMQcmqGpuf http://t.co/nops16zsnp https://t.co/7NzD8yBlPz https://t.co/eGAKFGaqNh https://t.co/8qb2aTT7Ls http://t.co/gQMpvZYxKG http://t.co/ctNwewOrnV https://t.co/mztgRl8Xkd  false true  false  w.  11895 ×" 467671 ®  1454 C$  9283 x4  13432 j]  23914 ¢G  18338 ı  6397 Óæ  59091 L   76  j   106 ÿ  2303    8 8   56 ˆ  648 ƒ  5763 2  12820 1  2097 k  363 /   47  ™   153 z   8314    29 “   147 ¢  674 0   48 <   60 p   112 ó  499    6  ¾   190 P  1872     0 Y:  14937 q—  38769 ç¹  47591 "   34 f  2918    4  r  3186 Åâ  58053 9  3641 …  7301 »W 153531 ö¨  43254 [#  9051 
+  2591 «  5547 Ã  4035 >ÿB•ä@€…àĞ_)ã@xl¶•pä@€…àceä@xaõs|wã@¡²ß_ä@ö(\™~ã@£{şk©æã@Üdhğ¯ã@uÄ¾#ø¨ä@ ÿÿ-25200     0 €p  28800  «ÿÿ-21600 àãÿÿ-7200 °¹ÿÿ-18000 ~  32400   3600 ÀÇÿÿ-14400  Pacific Time (US & Canada) London Irkutsk Mountain Time (US & Canada) Brasilia Central Time (US & Canada) Tokyo Brussels Eastern Time (US & Canada)  false true  en nl ja pt fr  false  false  false  false                                                                 B                       
+  A!‚  „‰ ‚$"            @       @
+  ƒAƒ10 „ 1ƒ 0!   A$@ TU
+ÿ„a B@ Æ  @„@@                     
+  …(
+…R
+
+ „  P
+… P            @       @
+  B0#P „  `†             @       @
+  ‡¢8#P „  p‡ `        $I@      @ş Ã@ˆb P !„  pˆ `            `       @
+  ‰ãH‰c$	$	 „ 	 ‰             @       @
+  
+D
+t(
+(
+ „ 
+ Š          I’@      @ş ‹AH‹„,P, €!0r                     
+  ŒD”00 „  Œ €        °mÛ@      @ş EP¡4`41J`                     
+  AXµ8p8 „‘!$"            @       @  a0<< Œ p `                     
+  &I U@ @  „    ”            @       @
+  ‘Fi"ÆD"€D" „  "‘ "            @       @
+  gq$’–H$H$BÎ $’                     
+  “(&“RL
+
+ „  P
+… P            @       @
+  ”‡y(wP&L&  €&“ p                     
+  ¨*•ÒT(P(”R„   (”             `       @
+  –A€,–WX*T* „  *•             @       @
+  —Hˆ.S\,X,c„  p,– `            `       @
+  I0¡`. \.—1R—.—`                     
+  ™I˜2™ád0±`0 „ ¢0˜$’            @       @  J€4ôh2d2 „  2™ €        @’$	@      @ş ›Ê¡6m4h4šs” 4š                     
+  ë©8œq6l6„Ö 6›                     
+  K°:u8œÁp8 „(¡¢8œ$’            @       @  L¸<)y:Ğt: „0 ³:  2""""""  0BDI"  d
+üŸÂ>Ÿy|<àx<” < "                     
+   A@ !€" „8‰ ‚("            @       @
+  ¡!ÊB¡…>|> ZÀ>Ÿ "                     
+  ¢LĞD"zˆ@ @€@ ¥œC ‚Ó@ @EC3333#33  @ h’  T
+ü#MÚF#1B!ğ„B! ŞK!äB¡„F                     
+  ¤aâH¤J‘D"ˆD"¥œ¢ D¢ @•                     
+  ¥MÈJ%”FŒF# „ # F£ €        Ğ¶m@      @ş &NèL&i˜H# ‘H$ „P$¤H¤$P’TDDDD4D4  PC,À0  T
+ü§òN'YJ$•J% „ %ğJ¥!2            @   *  €  ¨òP([¡J$•J¥µ„ %ğJ¥ 2            `       @  )¯úR©k¥L% ™L&Æ & L&!’                     
+  ªÏUª!¨N¦2N' „X')¥N§$’            @       @  «(V«R¬
+
+ „  P
+… P            @       @
+  ¬ÏY¬!°N&3N' „X')¥N§$’            @       @  -Ã@Z­b´P !„  pˆ `            `       @
+  ®Ï]®!¸N¦3N' „X')¥N§$’            @       @  ¯á
+_/©¼P'D¡P( „`¨±¥P¨h“            @       @
+  0a0©ÀR(T¥R) „h©±¥R©h“            @       @
+  ±á
+c1©ÄP§D¡P( „p¨±¥P¨d“            @       @
+  ²Pe²¡ÈT)e©T* „xª9¦T*i“            @       @  3MÚf31ÍB!ğ„B! bL!äB¡„F                     
+  ´Pi´¡ĞT©e©T* „€ªÁ¦T*e“            @       @  51#kµSÔV*¬V+ „ + V«             @   T  €  ¶Q+m¶tÙX+p±X¬Ö¤¬  Y¬@¡                     
+  ·Ïo·!ÜN&6N' „X')¥N§$’            @       @  8R0q¸ªàZ,€µZ- æ­[­À·                       ¹Ïs¹!äN¦6N' „X')¥N§$’            @       @  ºÏuº!èN&7N' „X')¥N§$’            @       @  »Rv;„í\-¸\. „ . \®         `Û¶@      @ş ¼E8y<iğ^.½^/ „ˆ/ §^¯`eUUUUEUE  `D„[D  Tü½aC{½”õ`/ Á`0ç(0  a°@                     
+  >“K}>Ìøb0°Åb1 j1 b± ’                     
+  ¿S0~?Yüd1ÀÉd2 „2„'e²äpÈvffffVfV  pE³ W~¨šÿÀ¡SÀ g2ĞÍf ¬3àf³€F                     
+  ÁAXƒÁQi3àÑh3 „ 4 h´ ’            @       @
+  ÂP…Â¡U©g©T* „€ªÁ¦Tªe“            @       @  Ãá
+‡C©Q'H¡P( „p¨±¥P¨d“            @       @
+  DT`‰Ä¡k4ğÕj´÷„˜5 ¨jµ@‡wswwwg  €f¤@h ”X
+æüÅP‹Å¡U©h©T* „€ªÄ¦Tªd8™            @       @  Æá
+F©Q'I¡P( „p¨±¥P¨d6“            @       @
+  Ç(ÇR
+ „  P
+… P            @       @
+  H¨ÈÒ )P(”R„   (”             `       @
+  ÉP“É¡$U©i©T* „€ªÁ¦Tªd“            @       @  ÊA€”ÊW(+T* „  *•             @       @
+  ËT–Ë¤,m5Øl5 î6  l¶                      
+  LÕk™L™0o6 Şn6 „ &(n·$€"˜ˆ‡ˆˆhˆx  G,äz  T
+üÍAp›Í4q7âp7 „¨7I©p¸$’            @       @
+  Îá{Î¡8s8 ær8 08 r9’                    
+  ÏA€ŸÄ±u90êt¹÷„˜9 ¨tºŒ@‡wswwwg  €f¤@h ”X
+æüĞUˆ¡OÉ=w:@îv…°:€©v»„©™˜™™y™‰	   hD@Œ äX
+üQV£ĞÑ@y»Zòx: „¸;Qªx¼$’            @       @
+  ÒAH¤Q¬D{<ôz†… ˆ z½`“            p       @
+  Óœ§RÑI}=kú|; rÆ<Øª|¾                       ÔV ©ÓáM>pş~¼÷„È= {~?@`            `       @  Õ(ªÔRP
+ „  P
+… P            @       @
+  ÖA¨­ÕüU? = ´>€À             €        
+  ×A®VZƒ@ƒ> ö? 0ƒÁ °                     
+  ØA°±×}\…A€
+…? 8@ „Â ’                     
+  ÙA²X®`‡B‡@ „ 6 †Ã ’            @       @
+  Z7L´Ù¥d‰C‰A „ 6  ˆÄ             @       @
+  ÛW¸·Zj‹D‹ „ĞA€[ŠÅ0Pºª9ªªŠªš
+  °IÄ@  TüÜAH¸Û nE zB  ŒÆ                      
+  ]gqºÜ–p%H$BÎ $’                     
+  ^XÄ½İntFB)… C 0Ç °            `       @
+  
